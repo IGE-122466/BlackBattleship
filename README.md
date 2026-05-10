@@ -8,9 +8,9 @@ Projeto laboratorial de Engenharia de Software - Testes de caixa-preta/aceitaç�
 * IGE-122466 José Maria Remédios
 * IGE-122475 Pedro Vicêncio
 
-## Scrum Product Backlog - BlackBattleship (Papergames.io)
+## Scrum Product Backlog (Papergames.io)
 
-Abaixo encontra-se a lista de User Stories (Requisitos Funcionais) identificadas para a plataforma de Batalha Naval Online, com base nas funcionalidades disponíveis no site.
+Abaixo encontra-se a lista de User Stories (Requisitos Funcionais) identificadas para a plataforma de Batalha Naval Online. Cada membro do grupo será responsável por automatizar o teste de, pelo menos, 4 destas histórias (totalizando 16).
 
 | ID | User Story | Prioridade |
 |:---|:---|:---:|
@@ -22,3 +22,11 @@ Abaixo encontra-se a lista de User Stories (Requisitos Funcionais) identificadas
 | **US6** | **Como** utilizador competitivo, **quero** criar e participar em torneios (`/t/create-tournament`), **para que** possa competir a um nível mais estruturado com vários jogadores. | Baixa |
 | **US7** | **Como** jogador, **quero** aceder a uma loja virtual (`/shop/avatars`, `/shop/emojis`), **para que** possa gastar moedas virtuais em customizações para o meu perfil (avatares e emojis). | Baixa |
 | **US8** | **Como** utilizador frequente, **quero** poder aderir a um plano de subscrição (`/pricing/plus`, `/pricing/gruppo`), **para que** tenha acesso a funcionalidades premium e sem interrupções. | Baixa |
+| **US9** | **Como** jogador, **quero** poder posicionar os meus navios manualmente arrastando-os no tabuleiro, **para que** tenha controlo total sobre a minha estratégia inicial. | Alta |
+| **US10** | **Como** jogador, **quero** gerar um link de convite direto, **para que** o possa partilhar no Discord ou WhatsApp e jogar com um amigo específico. | Alta |
+| **US11** | **Como** utilizador, **quero** consultar a página de Guias de Jogo (`/docs/game-guides/`), **para que** possa aprender as regras específicas desta versão da Batalha Naval. | Baixa |
+| **US12** | **Como** jogador, **quero** ter a opção de "Desistir" (Surrender) a meio de uma partida, **para que** possa abandonar o jogo se perceber que já não tenho hipótese de ganhar. | Média |
+| **US13** | **Como** utilizador, **quero** aceder à página de Changelog (`/changelog`), **para que** possa ver as últimas atualizações e correções de bugs feitas no jogo. | Baixa |
+| **US14** | **Como** jogador, **quero** comprar moedas virtuais na loja (`/shop/virtual-coins`), **para que** possa adquirir itens cosméticos exclusivos. | Baixa |
+| **US15** | **Como** utilizador, **quero** poder visualizar as estatísticas globais do meu perfil (Taxa de vitórias, Total de jogos), **para que** consiga avaliar a minha performance geral. | Média |
+| **US16** | **Como** utilizador, **quero** consultar a Política de Privacidade e Termos de Serviço (`/blog/privacy-policy`), **para que** saiba como os meus dados são tratados pela plataforma. | Baixa |
