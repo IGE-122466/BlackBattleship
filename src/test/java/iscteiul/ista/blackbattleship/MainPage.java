@@ -5,19 +5,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-// page_url = https://www.jetbrains.com/
 public class MainPage {
-    @FindBy(xpath = "//*[@data-test-marker='Developer Tools']")
-    public WebElement seeDeveloperToolsButton;
 
-    @FindBy(xpath = "//*[@data-test='suggestion-action']")
-    public WebElement findYourToolsButton;
+    @FindBy(xpath = "//button[contains(., 'Accept') or contains(., 'Aceitar')]")
+    public WebElement acceptCookiesButton;
 
-    @FindBy(xpath = "//div[@data-test='main-menu-item' and @data-test-marker = 'Developer Tools']")
-    public WebElement toolsMenu;
+    // Vamos procurar links fixos que sabemos que existem sempre na página
+    @FindBy(xpath = "//a[contains(@href, '/store')]")
+    public WebElement storeLink;
 
-    @FindBy(css = "[data-test='site-header-search-action']")
-    public WebElement searchButton;
+    @FindBy(xpath = "//a[contains(@href, '/company') or contains(text(), 'Company')]")
+    public WebElement companyLink;
 
     public MainPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
