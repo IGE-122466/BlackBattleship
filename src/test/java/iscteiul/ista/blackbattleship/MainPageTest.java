@@ -2,6 +2,7 @@ package iscteiul.ista.blackbattleship;
 
 import org.junit.jupiter.api.*;
 
+import static java.lang.Thread.sleep;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.openqa.selenium.By;
@@ -31,21 +32,27 @@ public class MainPageTest {
     }
 
     @Test
-    public void search() {
+    public void search() throws InterruptedException {
+        sleep(3000);
+        mainPage.acceptCookiesButton.click();
+        sleep(1000);
         mainPage.searchButton.click();
-
-        WebElement searchField = driver.findElement(By.cssSelector("[data-test='search-input']"));
+        sleep(1000);
+        WebElement searchField = driver.findElement(By.cssSelector("[data-test-id='search-input']"));
         searchField.sendKeys("Selenium");
-
+        sleep(1000);
         WebElement submitButton = driver.findElement(By.cssSelector("button[data-test='full-search-button']"));
         submitButton.click();
-
-        WebElement searchPageField = driver.findElement(By.cssSelector("input[data-test='search-input']"));
+        sleep(1000);
+        WebElement searchPageField = driver.findElement(By.cssSelector("input[data-test-id='search-input']"));
         assertEquals("Selenium", searchPageField.getAttribute("value"));
     }
 
     @Test
-    public void toolsMenu() {
+    public void toolsMenu() throws InterruptedException {
+        sleep(3000);
+        mainPage.acceptCookiesButton.click();
+
         mainPage.toolsMenu.click();
 
         WebElement menuPopup = driver.findElement(By.cssSelector("div[data-test='main-submenu']"));
@@ -53,7 +60,10 @@ public class MainPageTest {
     }
 
     @Test
-    public void navigationToAllTools() {
+    public void navigationToAllTools() throws InterruptedException {
+        sleep(3000);
+        mainPage.acceptCookiesButton.click();
+        sleep(1000);
         mainPage.seeDeveloperToolsButton.click();
         mainPage.findYourToolsButton.click();
 
