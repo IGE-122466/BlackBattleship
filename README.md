@@ -22,7 +22,7 @@ Abaixo encontra-se a lista de User Stories (Requisitos Funcionais) identificadas
 | **US6** | Como utilizador competitivo, quero criar torneios (`/t/create-tournament`), para que possa competir a um nível mais estruturado com vários jogadores. | 122994 |
 | **US7** | Como jogador, quero aceder a uma loja virtual (`/shop/avatars`, `/shop/emojis`), para que possa gastar moedas virtuais em customizações para o meu perfil (avatares e emojis). | 122466 |
 | **US8** | Como utilizador frequente, quero poder aderir a um plano de subscrição (`/pricing/plus`, `/pricing/gruppo`), para que tenha acesso a funcionalidades premium e sem interrupções. | 122475 |
-| **US9** | Como jogador distraído, quero ter a opção de "Abortar" (`Abort game`) uma partida, para que possa abandonar o jogo se tiver iniciado o mesmo por engano. | 122994 |
+| **US9** | Como jogador distraído, quero ter a opção de abortar uma partida (`Abort game`), para que possa abandonar o jogo se tiver iniciado o mesmo por engano. | 122994 |
 | **US10** | Como utilizador, quero aceder à página de Changelog (`/changelog`), para que possa ver as últimas atualizações e correções de bugs feitas no jogo. | 110323 |
 | **US11** | Como jogador, quero comprar moedas virtuais na loja (`/shop/virtual-coins`), para que possa adquirir itens cosméticos exclusivos. | 122466 |
 | **US12** | Como jogador, quero comprar boosters na loja (`/shop/boosters`), para que possa duplicar os meus pontos em torneios. | 122475 |
