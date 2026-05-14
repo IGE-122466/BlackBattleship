@@ -1,0 +1,830 @@
+{
+  "id": "833ea7c0-6c02-46bc-85a5-67919172a73b",
+  "version": "2.0",
+  "name": "TestSuite_122994",
+  "url": "https://papergames.io",
+  "tests": [{
+    "id": "c2313281-7572-4080-be96-fd04d5da9366",
+    "name": "UserStoryTest4",
+    "commands": [{
+      "id": "9dc15248-1c67-466a-ab85-ad32f33194b9",
+      "comment": "",
+      "command": "open",
+      "target": "/en/battleship",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cdf1d470-d707-4d2c-b0be-e893f3820213",
+      "comment": "Inicialização da dimensão da janela",
+      "command": "setWindowSize",
+      "target": "1057x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74e7e864-1ded-4944-b1a6-5998d8dde82d",
+      "comment": "Cliquei na aba \"Friends\" à esquerda",
+      "command": "click",
+      "target": "linkText=Friends",
+      "targets": [
+        ["linkText=Friends", "linkText"],
+        ["css=.cdk-focused", "css:finder"],
+        ["xpath=//a[contains(@href, '/en/friends')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Friends')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "72f1878e-ad07-4f8d-93e3-5a28275b3457",
+    "name": "UserStoryTest14",
+    "commands": [{
+      "id": "04dc2d17-afcd-49f5-9438-051c221f257a",
+      "comment": "",
+      "command": "open",
+      "target": "/en/battleship",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f727895-e51d-4f8d-b3d3-f27b0a1f69ce",
+      "comment": "Inicialização da dimensão da janela",
+      "command": "setWindowSize",
+      "target": "1057x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fa2decc-2cb5-4496-ab7b-11613d02053c",
+      "comment": "Fiz um scroll até ao fim da página",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52babb16-539d-4acd-b4a8-a5953f083632",
+      "comment": "Cliquei em \"Privacy\" nos recursos",
+      "command": "click",
+      "target": "linkText=Privacy",
+      "targets": [
+        ["linkText=Privacy", "linkText"],
+        ["css=.col-md-6:nth-child(3) > div:nth-child(6) > .text-reset", "css:finder"],
+        ["xpath=//a[contains(text(),'Privacy')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en/blog/privacy-policy')]", "xpath:href"],
+        ["xpath=//div[3]/div[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Privacy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "193f8f60-4ec1-4621-9830-ccb5c880b8b9",
+    "name": "UserStoryTest16",
+    "commands": [{
+      "id": "69869b1d-a86b-484a-a647-83b715fd271b",
+      "comment": "",
+      "command": "open",
+      "target": "/en/battleship",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5db216d-fea0-4a36-866b-a83a069b0cd4",
+      "comment": "Inicialização da dimensão da janela",
+      "command": "setWindowSize",
+      "target": "1057x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f6a2bca-0e63-4d24-84c4-c402327b4527",
+      "comment": "Cliquei na aba \"Goodies\" à esquerda",
+      "command": "click",
+      "target": "linkText=Goodies",
+      "targets": [
+        ["linkText=Goodies", "linkText"],
+        ["css=.cdk-focused", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://merch.papergames.io')]", "xpath:href"],
+        ["xpath=//ul[2]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Goodies')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2222",
+      "windowTimeout": 2000
+    }, {
+      "id": "d786c135-8b2c-4d33-a05e-a12385ab10a5",
+      "comment": "Abriu-se a janela do merchandising",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf617b17-f55a-462c-ac75-79d3da9e0b69",
+      "comment": "Selecionei a janela do merchandising",
+      "command": "selectWindow",
+      "target": "handle=${win2222}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c6f84d0-1f95-4d1a-bbca-16d0a1d10a25",
+      "comment": "Selecionei a janela principal do jogo",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "704af465-94dd-489a-9a39-311c9db06df0",
+      "comment": "Cliquei na aba \"Shop\" à esquerda",
+      "command": "click",
+      "target": "linkText=Shop",
+      "targets": [
+        ["linkText=Shop", "linkText"],
+        ["css=.cdk-focused", "css:finder"],
+        ["xpath=//a[contains(@href, '/en/shop')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "835c2f44-6741-45d6-b0ee-a00a4b214c46",
+      "comment": "Cliquei em \"Goodies\" nas opções",
+      "command": "click",
+      "target": "css=.mb-2 > .w-100",
+      "targets": [
+        ["css=.mb-2 > .w-100", "css:finder"],
+        ["xpath=//img[@alt='Goodies']", "xpath:img"],
+        ["xpath=//div[5]/a/div/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7933",
+      "windowTimeout": 2000
+    }, {
+      "id": "734724d4-af44-425b-9f38-1c6555c6a94d",
+      "comment": "Selecionei a janela do merchandising",
+      "command": "selectWindow",
+      "target": "handle=${win7933}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d4dd53ee-1f80-46d3-aefd-0143c27349f3",
+    "name": "UserStoryTest9",
+    "commands": [{
+      "id": "8e3acf30-9526-4a9c-982c-5fb82e0efe54",
+      "comment": "",
+      "command": "open",
+      "target": "/en/battleship",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d0fde28-d8d1-42ac-9981-ebea9a629e38",
+      "comment": "Inicialização da dimensão da janela",
+      "command": "setWindowSize",
+      "target": "1057x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe79e1e9-e119-4638-ac9c-421aee4fe580",
+      "comment": "Cliquei em \"Play vs robot\" nas opções",
+      "command": "click",
+      "target": "css=.w-100:nth-child(2) > .btn > .front",
+      "targets": [
+        ["css=.w-100:nth-child(2) > .btn > .front", "css:finder"],
+        ["xpath=//app-juicy-button[2]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3c78dfc-bfaa-4328-a82c-6134ae634329",
+      "comment": "Cliquei em \"Abort game\" no canto inferior dreito",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Abort game')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78e346ff-05fa-4f3e-98d5-81d911932ede",
+      "comment": "Cliquei em \"Abort game\" nas opções",
+      "command": "click",
+      "target": "css=.btn-danger",
+      "targets": [
+        ["css=.btn-danger", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-confirm-leave-dialog/app-dialog-layout/div/footer/button[2]", "xpath:idRelative"],
+        ["xpath=//footer/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7e29eaf0-87c0-43dd-868a-aa93bff7ff11",
+    "name": "UserStoryTest6",
+    "commands": [{
+      "id": "f985a120-94a5-4d1d-ab17-4dbe0abb4819",
+      "comment": "",
+      "command": "open",
+      "target": "/en/battleship",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc9047dc-b1c7-46b4-a46e-5e856b1bda59",
+      "comment": "Inicialização da dimensão da janela",
+      "command": "setWindowSize",
+      "target": "1057x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f91132f-e0ab-4352-9c44-c5d3db192052",
+      "comment": "Cliquei em \"Create tournament\" nas opções",
+      "command": "click",
+      "target": "css=.position-relative > .front",
+      "targets": [
+        ["css=.position-relative > .front", "css:finder"],
+        ["xpath=//a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ba11c93-8eb1-44d0-a977-662abd64fcb9",
+      "comment": "Cliquei no input para \"Game\"",
+      "command": "click",
+      "target": "css=#mat-select-serverApp0 svg",
+      "targets": [
+        ["css=#mat-select-serverApp0 svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "022630a6-b998-4f42-b738-432e883bf028",
+      "comment": "Escolhi o input \"Battleship\"",
+      "command": "click",
+      "target": "css=#mat-option-serverApp0 .c-gray-700",
+      "targets": [
+        ["css=#mat-option-serverApp0 .c-gray-700", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-serverApp0']/span/app-game-select-option/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//span/app-game-select-option/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c705991-eb73-493b-a20d-fbbca8a96e50",
+      "comment": "Cliquei no input para \"Mode\"",
+      "command": "click",
+      "target": "css=#mat-select-serverApp1 svg",
+      "targets": [
+        ["css=#mat-select-serverApp1 svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5289dde0-1530-42e6-90a1-5066756d9e30",
+      "comment": "Escolhi o input \"Leaderboard\"",
+      "command": "click",
+      "target": "css=#mat-option-serverApp6 .c-gray-700",
+      "targets": [
+        ["css=#mat-option-serverApp6 .c-gray-700", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-serverApp6']/span/div/div[2]", "xpath:idRelative"],
+        ["xpath=//mat-option/span/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1d5aa9c-3a0f-4033-8c06-ce40e37493da",
+      "comment": "Cliquei no input para \"Tournament name\"",
+      "command": "click",
+      "target": "id=mat-input-serverApp0",
+      "targets": [
+        ["id=mat-input-serverApp0", "id"],
+        ["css=#mat-input-serverApp0", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9f1b1be-7097-46ff-a57d-24dd5dd8ec1c",
+      "comment": "Escrevi o nome \"IGE_122994\"",
+      "command": "type",
+      "target": "id=mat-input-serverApp0",
+      "targets": [
+        ["id=mat-input-serverApp0", "id"],
+        ["css=#mat-input-serverApp0", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "IGE_122994"
+    }, {
+      "id": "de9feb00-4db5-4bce-982d-a6ffed84e598",
+      "comment": "Cliquei no input para \"Description\"",
+      "command": "click",
+      "target": "id=mat-input-serverApp1",
+      "targets": [
+        ["id=mat-input-serverApp1", "id"],
+        ["css=#mat-input-serverApp1", "css:finder"],
+        ["xpath=//textarea[@id='mat-input-serverApp1']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c839d81-6753-4d00-bb07-b32aa7d335cb",
+      "comment": "Escrevi a descrição \"IGE_122994\"",
+      "command": "type",
+      "target": "id=mat-input-serverApp1",
+      "targets": [
+        ["id=mat-input-serverApp1", "id"],
+        ["css=#mat-input-serverApp1", "css:finder"],
+        ["xpath=//textarea[@id='mat-input-serverApp1']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "IGE_122994"
+    }, {
+      "id": "86efc794-406f-4f9e-afce-367db59d5e3e",
+      "comment": "Cliquei no input para \"Matchs per round\"",
+      "command": "click",
+      "target": "css=#mat-select-serverApp2 svg",
+      "targets": [
+        ["css=#mat-select-serverApp2 svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e390362e-d71d-44da-9c72-d4d3192a7119",
+      "comment": "Escolhi o input \"Best of 3\"",
+      "command": "click",
+      "target": "id=mat-option-serverApp12",
+      "targets": [
+        ["id=mat-option-serverApp12", "id"],
+        ["css=#mat-option-serverApp12", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-serverApp12']", "xpath:attributes"],
+        ["xpath=//div[@id='mat-select-serverApp2-panel']/mat-option[2]", "xpath:idRelative"],
+        ["xpath=//mat-option[2]", "xpath:position"],
+        ["xpath=//mat-option[contains(.,'Best of 3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3886c419-ce95-43b0-9aaa-097af824ba72",
+      "comment": "Cliquei no input para \"Minutes per player\"",
+      "command": "click",
+      "target": "css=#mat-select-serverApp3 svg",
+      "targets": [
+        ["css=#mat-select-serverApp3 svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "982be675-21cd-47d0-8491-3b0efd8908e0",
+      "comment": "Escolhi o input \"3 minutes\"",
+      "command": "click",
+      "target": "id=mat-option-serverApp16",
+      "targets": [
+        ["id=mat-option-serverApp16", "id"],
+        ["css=#mat-option-serverApp16", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-serverApp16']", "xpath:attributes"],
+        ["xpath=//div[@id='mat-select-serverApp3-panel']/mat-option[3]", "xpath:idRelative"],
+        ["xpath=//mat-option[3]", "xpath:position"],
+        ["xpath=//mat-option[contains(.,'3 minutes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41714715-097a-4bd4-ad42-71b15ceedc62",
+      "comment": "Cliquei no input para \"Penalty points\"",
+      "command": "click",
+      "target": "id=mat-select-value-serverApp4",
+      "targets": [
+        ["id=mat-select-value-serverApp4", "id"],
+        ["css=#mat-select-value-serverApp4", "css:finder"],
+        ["xpath=//div[@id='mat-select-value-serverApp4']", "xpath:attributes"],
+        ["xpath=//mat-select[@id='mat-select-serverApp4']/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/mat-form-field/div/div/div[2]/mat-select/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "859b0226-3e44-4854-882b-644603863868",
+      "comment": "Escolhi o input \"15 pts\"",
+      "command": "click",
+      "target": "id=mat-option-serverApp22",
+      "targets": [
+        ["id=mat-option-serverApp22", "id"],
+        ["css=#mat-option-serverApp22", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-serverApp22']", "xpath:attributes"],
+        ["xpath=//div[@id='mat-select-serverApp4-panel']/mat-option[4]", "xpath:idRelative"],
+        ["xpath=//mat-option[4]", "xpath:position"],
+        ["xpath=//mat-option[contains(.,'15 pts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4daf4cfe-27a7-4a13-8256-626f77550d2e",
+      "comment": "Cliquei no botão \"Create and share\"",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[9]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create and share')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bffe6b1a-d6fd-4d35-9e2d-d8ab47bc651d",
+      "comment": "Cliquei no botão para sair do popup",
+      "command": "click",
+      "target": "xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/header/div/button/span[3]",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/header/div/button/span[3]", "xpath:idRelative"],
+        ["xpath=//div/button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7a649c2-532d-447e-ae2b-d99e563ccf5c",
+      "comment": "Cliquei na aba \"Battleship\" à esquerda",
+      "command": "click",
+      "target": "linkText=Battleship",
+      "targets": [
+        ["linkText=Battleship", "linkText"],
+        ["css=.cdk-focused", "css:finder"],
+        ["xpath=//a[contains(@href, '/en/battleship')]", "xpath:href"],
+        ["xpath=//ul[5]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Battleship')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f50edd72-f82d-41bd-a35e-2df59169ae6f",
+      "comment": "Cliquei na aba \"Create tournament\" à esquerda",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Create tournament')]",
+      "targets": [
+        ["css=.cdk-focused > .hide-if-collapsed", "css:finder"],
+        ["xpath=//ul[3]/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Create tournament')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18fbb18a-8b64-48dd-b745-7607a9b5abda",
+      "comment": "Cliquei no input para \"Game\"",
+      "command": "click",
+      "target": "css=#mat-select-serverApp5 svg",
+      "targets": [
+        ["css=#mat-select-serverApp5 svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "49646124-f0aa-49a6-a620-ddfdb25a4fb4",
+      "comment": "Escolhi o input \"Battleship\"",
+      "command": "click",
+      "target": "css=#mat-option-serverApp23 .fw-bold",
+      "targets": [
+        ["css=#mat-option-serverApp23 .fw-bold", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-serverApp23']/span/app-game-select-option/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//span/app-game-select-option/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60abac33-1ac7-444e-b632-0048c1b993dc",
+      "comment": "Cliquei no input para \"Mode\"",
+      "command": "click",
+      "target": "css=#mat-select-serverApp6 svg",
+      "targets": [
+        ["css=#mat-select-serverApp6 svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2125e023-9ce5-47d6-9835-b0d1fe2c4649",
+      "comment": "Escolhi o input \"Single elimination\"",
+      "command": "click",
+      "target": "css=#mat-option-serverApp30 .c-gray-700",
+      "targets": [
+        ["css=#mat-option-serverApp30 .c-gray-700", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-serverApp30']/span/div/div[2]", "xpath:idRelative"],
+        ["xpath=//mat-option[2]/span/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cc00877-4115-4a25-9c58-71620342f542",
+      "comment": "Cliquei no input para \"Tournament name\"",
+      "command": "click",
+      "target": "id=mat-input-serverApp2",
+      "targets": [
+        ["id=mat-input-serverApp2", "id"],
+        ["css=#mat-input-serverApp2", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp2']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7ceae95-18fc-4efe-897c-7c06bb1802ed",
+      "comment": "Escrevi o nome \"IGE_122466\"",
+      "command": "type",
+      "target": "id=mat-input-serverApp2",
+      "targets": [
+        ["id=mat-input-serverApp2", "id"],
+        ["css=#mat-input-serverApp2", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp2']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "IGE_122466"
+    }, {
+      "id": "0b676cd1-bbb1-4fbb-9e7a-7c1e0a5e3bcd",
+      "comment": "Cliquei no input para \"Description\"",
+      "command": "click",
+      "target": "id=mat-input-serverApp3",
+      "targets": [
+        ["id=mat-input-serverApp3", "id"],
+        ["css=#mat-input-serverApp3", "css:finder"],
+        ["xpath=//textarea[@id='mat-input-serverApp3']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe94bf3a-588b-4e19-8ab5-2ec92b61a2c2",
+      "comment": "Escrevi o input \"IGE_122466\"",
+      "command": "type",
+      "target": "id=mat-input-serverApp3",
+      "targets": [
+        ["id=mat-input-serverApp3", "id"],
+        ["css=#mat-input-serverApp3", "css:finder"],
+        ["xpath=//textarea[@id='mat-input-serverApp3']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "IGE_122466"
+    }, {
+      "id": "a99615fc-aef1-424c-98bf-eea292897bb2",
+      "comment": "Cliquei no input para \"Matchs per round\"",
+      "command": "click",
+      "target": "id=mat-select-value-serverApp7",
+      "targets": [
+        ["id=mat-select-value-serverApp7", "id"],
+        ["css=#mat-select-value-serverApp7", "css:finder"],
+        ["xpath=//div[@id='mat-select-value-serverApp7']", "xpath:attributes"],
+        ["xpath=//mat-select[@id='mat-select-serverApp7']/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/mat-form-field/div/div/div[2]/mat-select/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b925ae4f-840c-43f6-a263-a4e9c30194a5",
+      "comment": "Escolhi o input \"Best of 1\"",
+      "command": "click",
+      "target": "id=mat-option-serverApp34",
+      "targets": [
+        ["id=mat-option-serverApp34", "id"],
+        ["css=#mat-option-serverApp34", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-serverApp34']", "xpath:attributes"],
+        ["xpath=//div[@id='mat-select-serverApp7-panel']/mat-option", "xpath:idRelative"],
+        ["xpath=//mat-option", "xpath:position"],
+        ["xpath=//mat-option[contains(.,'Best of 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38fdc162-6eca-4794-9ec8-ca63b9e8c574",
+      "comment": "Cliquei no input para \"Minutes per player\"",
+      "command": "click",
+      "target": "id=mat-select-value-serverApp8",
+      "targets": [
+        ["id=mat-select-value-serverApp8", "id"],
+        ["css=#mat-select-value-serverApp8", "css:finder"],
+        ["xpath=//div[@id='mat-select-value-serverApp8']", "xpath:attributes"],
+        ["xpath=//mat-select[@id='mat-select-serverApp8']/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/mat-form-field/div/div/div[2]/mat-select/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89fe6861-ce73-44da-b467-2cb911bc74ca",
+      "comment": "Escolhi o input \"1 minutes\"",
+      "command": "click",
+      "target": "id=mat-option-serverApp37",
+      "targets": [
+        ["id=mat-option-serverApp37", "id"],
+        ["css=#mat-option-serverApp37", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-serverApp37']", "xpath:attributes"],
+        ["xpath=//div[@id='mat-select-serverApp8-panel']/mat-option", "xpath:idRelative"],
+        ["xpath=//mat-option", "xpath:position"],
+        ["xpath=//mat-option[contains(.,'1 minutes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a55c875a-a356-4b6e-9065-44113573db0c",
+      "comment": "Cliquei no botão \"Create and share\"",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[9]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create and share')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79272221-5ef0-41ab-9738-bdcb50fc24dc",
+      "comment": "Cliquei no botão para sair do popup",
+      "command": "click",
+      "target": "xpath=//div/button/span[3]",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/header/div/button/span[3]", "xpath:idRelative"],
+        ["xpath=//div/button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "664b8fe9-122b-4bd4-b912-37fff62b26cd",
+      "comment": "Cliquei na aba \"Battleship\" à esquerda",
+      "command": "click",
+      "target": "linkText=Battleship",
+      "targets": [
+        ["linkText=Battleship", "linkText"],
+        ["css=.cdk-focused", "css:finder"],
+        ["xpath=//a[contains(@href, '/en/battleship')]", "xpath:href"],
+        ["xpath=//ul[5]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Battleship')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9adeaf12-6dd6-4d62-8b42-44283d0bede1",
+      "comment": "Cliquei na aba \"My tournaments\" à esquerda",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'My tournaments')]",
+      "targets": [
+        ["css=.cdk-focused > .hide-if-collapsed", "css:finder"],
+        ["xpath=//ul[3]/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'My tournaments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad9f5012-96ab-4ad8-a297-7ffab6fd668e",
+      "comment": "Cliquei em \"Create tournament\" no canto superior direito",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Create tournament')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/en/t/create-tournament')])[2]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46b489bd-9a6b-46b5-bbac-21d9e9510276",
+      "comment": "Cliquei no input para \"Game\"",
+      "command": "click",
+      "target": "css=#mat-select-serverApp11 path",
+      "targets": [
+        ["css=#mat-select-serverApp11 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb184513-779b-4d0a-b405-e0a7a4427024",
+      "comment": "Escolhi o input \"Battleship\"",
+      "command": "click",
+      "target": "css=#mat-option-serverApp50 .fw-bold",
+      "targets": [
+        ["css=#mat-option-serverApp50 .fw-bold", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-serverApp50']/span/app-game-select-option/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//span/app-game-select-option/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5239f7bd-b330-4396-a78d-6ef0cc725503",
+      "comment": "Cliquei no input para \"Mode\"",
+      "command": "click",
+      "target": "id=mat-select-value-serverApp12",
+      "targets": [
+        ["id=mat-select-value-serverApp12", "id"],
+        ["css=#mat-select-value-serverApp12", "css:finder"],
+        ["xpath=//div[@id='mat-select-value-serverApp12']", "xpath:attributes"],
+        ["xpath=//mat-select[@id='mat-select-serverApp12']/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/mat-form-field/div/div/div[2]/mat-select/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7864839c-bb6e-428c-aa32-0f03fe52bdb4",
+      "comment": "Escolhi o input \"Double elimination\"",
+      "command": "click",
+      "target": "css=#mat-option-serverApp58 .c-gray-700",
+      "targets": [
+        ["css=#mat-option-serverApp58 .c-gray-700", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-serverApp58']/span/div/div[2]", "xpath:idRelative"],
+        ["xpath=//mat-option[3]/span/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42e3c31d-e5cd-4c79-bdde-1a9bcea63c46",
+      "comment": "Cliquei no input para \"Tournament name\"",
+      "command": "click",
+      "target": "id=mat-input-serverApp4",
+      "targets": [
+        ["id=mat-input-serverApp4", "id"],
+        ["css=#mat-input-serverApp4", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp4']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa0cda8b-75d4-4f9c-93d2-3e1e80295088",
+      "comment": "Escrevi o input \"IGE_110323\"",
+      "command": "type",
+      "target": "id=mat-input-serverApp4",
+      "targets": [
+        ["id=mat-input-serverApp4", "id"],
+        ["css=#mat-input-serverApp4", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp4']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "IGE_110323"
+    }, {
+      "id": "7816d73a-5223-4325-a4d0-c89c20cd8e5b",
+      "comment": "Cliquei no input para \"Description\"",
+      "command": "click",
+      "target": "id=mat-input-serverApp5",
+      "targets": [
+        ["id=mat-input-serverApp5", "id"],
+        ["css=#mat-input-serverApp5", "css:finder"],
+        ["xpath=//textarea[@id='mat-input-serverApp5']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ca1659b-db0e-4d38-a135-4e64ba05a01d",
+      "comment": "Escrevi o input \"IGE_110323\"",
+      "command": "type",
+      "target": "id=mat-input-serverApp5",
+      "targets": [
+        ["id=mat-input-serverApp5", "id"],
+        ["css=#mat-input-serverApp5", "css:finder"],
+        ["xpath=//textarea[@id='mat-input-serverApp5']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "IGE_110323"
+    }, {
+      "id": "38c545b5-5580-4b52-80e1-2d870f86c86b",
+      "comment": "Cliquei no input para \"Matchs per round\"",
+      "command": "click",
+      "target": "id=mat-select-value-serverApp13",
+      "targets": [
+        ["id=mat-select-value-serverApp13", "id"],
+        ["css=#mat-select-value-serverApp13", "css:finder"],
+        ["xpath=//div[@id='mat-select-value-serverApp13']", "xpath:attributes"],
+        ["xpath=//mat-select[@id='mat-select-serverApp13']/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/mat-form-field/div/div/div[2]/mat-select/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "535d8a2d-cd3f-4049-b0b2-80f8e9b9bdc7",
+      "comment": "Escolhi o input \"Best of 5\"",
+      "command": "click",
+      "target": "id=mat-option-serverApp63",
+      "targets": [
+        ["id=mat-option-serverApp63", "id"],
+        ["css=#mat-option-serverApp63", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-serverApp63']", "xpath:attributes"],
+        ["xpath=//div[@id='mat-select-serverApp13-panel']/mat-option[3]", "xpath:idRelative"],
+        ["xpath=//mat-option[3]", "xpath:position"],
+        ["xpath=//mat-option[contains(.,'Best of 5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05ecfbf1-7b45-47a3-b7c5-435337c5d0f9",
+      "comment": "Cliquei no input para \"Minutes per player\"",
+      "command": "click",
+      "target": "css=.ng-untouched .mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.ng-untouched .mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//div[6]/mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b95ada6e-3615-4fb0-9bb0-1d21d3a9d4f3",
+      "comment": "Escolhi o input \"5 minutes\"",
+      "command": "click",
+      "target": "id=mat-option-serverApp67",
+      "targets": [
+        ["id=mat-option-serverApp67", "id"],
+        ["css=#mat-option-serverApp67", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-serverApp67']", "xpath:attributes"],
+        ["xpath=//div[@id='mat-select-serverApp14-panel']/mat-option[4]", "xpath:idRelative"],
+        ["xpath=//mat-option[4]", "xpath:position"],
+        ["xpath=//mat-option[contains(.,'5 minutes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0ffabbb-372d-40c0-8918-614d0d285eed",
+      "comment": "Cliquei no botão \"Create and share\"",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[8]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create and share')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e4a4e96-65e5-4b20-91c3-98413af00f55",
+      "comment": "Cliquei no botão para sair do popup",
+      "command": "click",
+      "target": "xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp2']/div/div/app-sign-up-dialog/app-dialog-layout/div/header/div/button/span[3]",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp2']/div/div/app-sign-up-dialog/app-dialog-layout/div/header/div/button/span[3]", "xpath:idRelative"],
+        ["xpath=//div/button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "87498758-b945-4fb9-81b3-fc2b8f59978d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c2313281-7572-4080-be96-fd04d5da9366"]
+  }],
+  "urls": ["https://papergames.io/"],
+  "plugins": []
+}
