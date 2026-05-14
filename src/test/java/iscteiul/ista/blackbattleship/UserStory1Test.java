@@ -19,7 +19,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * para que possa jogar de forma rápida e testar a minha estratégia.
  * </p>
  */
-public class UserStoryTest1 {
+public class UserStory1Test {
 
     private WebDriver driver;
     private UserStory1 page;

@@ -12,16 +12,16 @@ import java.time.Duration;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * Page Test Class para a User Story 10.
+ * Page Test Class para a User Story 19.
  * <p>
- * Como utilizador, quero aceder à página de Changelog,
- * para que possa ver as últimas atualizações e correções de bugs feitas no jogo.
+ * Como utilizador, quero saber mais sobre o RANKA (/blog/ranka),
+ * para saber quais são os benefícios de ter mais pontos.
  * </p>
  */
-public class UserStoryTest10 {
+public class UserStory19Test {
 
     private WebDriver driver;
-    private UserStory10 page;
+    private UserStory19 page;
 
     /**
      * Configuração executada antes de cada teste.
@@ -34,7 +34,7 @@ public class UserStoryTest10 {
         driver.manage().window().setSize(new Dimension(1516, 891));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://papergames.io/en/battleship");
-        page = new UserStory10(driver);
+        page = new UserStory19(driver);
     }
 
     /**
@@ -46,17 +46,17 @@ public class UserStoryTest10 {
     }
 
     /**
-     * Verifica que ao clicar em "Changelog" o URL passa a conter "/changelog",
+     * Verifica que ao clicar em "RANKA" o URL passa a conter "/blog/ranka",
      * confirmando que a navegação para a página foi bem-sucedida.
      */
     @Test
-    public void testAcederChangelog() {
-        page.clickChangelog();
+    public void testAcederRanka() {
+        page.clickRanka();
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.urlContains("/changelog"));
+        wait.until(ExpectedConditions.urlContains("/blog/ranka"));
 
-        assertTrue(page.getCurrentUrl().contains("/changelog"),
-                "O URL devia conter '/changelog' após clicar no link");
+        assertTrue(page.getCurrentUrl().contains("/blog/ranka"),
+                "O URL devia conter '/blog/ranka' após clicar no link RANKA");
     }
 }

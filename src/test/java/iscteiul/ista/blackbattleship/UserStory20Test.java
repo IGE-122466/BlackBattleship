@@ -21,7 +21,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * </p>
  * NOTA: Requer sessão autenticada no site.
  */
-public class UserStoryTest20 {
+public class UserStory20Test {
 
     private WebDriver driver;
     private UserStory20 page;

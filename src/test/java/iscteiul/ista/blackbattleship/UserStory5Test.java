@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * para que possa comunicar e interagir com o meu adversário.
  * </p>
  */
-public class UserStoryTest5 {
+public class UserStory5Test {
 
     private WebDriver driver;
     private UserStory5 page;
