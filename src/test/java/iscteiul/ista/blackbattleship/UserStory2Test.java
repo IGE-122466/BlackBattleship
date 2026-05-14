@@ -1,12 +1,13 @@
 package iscteiul.ista.blackbattleship;
 
 import org.junit.jupiter.api.*;
-import static org.junit.jupiter.api.Assertions.*;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class UserStory2Test {
     private WebDriver driver;
@@ -20,7 +21,7 @@ public class UserStory2Test {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         js = (JavascriptExecutor) driver;
 
-        // Desta vez vamos diretos para a página do jogo!
+
         driver.get("https://papergames.io/en/battleship");
         us2 = new UserStory2(driver);
         Thread.sleep(3000);
@@ -38,7 +39,6 @@ public class UserStory2Test {
         Thread.sleep(3000); // Dá tempo ao site para gerar o link e abrir o modal
 
         // Validação: Verifica se o botão "Copy" apareceu no ecrã.
-        // Se apareceu, significa que o link foi gerado com sucesso!
         assertTrue(us2.copyLinkButton.isDisplayed(), "O modal com o link de convite não apareceu!");
     }
 }

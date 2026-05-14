@@ -43,7 +43,7 @@ public class UserStory7Test {
         // Verifica se chegámos aos emojis
         assertTrue(driver.getCurrentUrl().contains("emojis"), "Não navegou para a loja de Emojis!");
 
-        // Passo 3: O GRANDE TRUQUE! A página recarregou, por isso temos de abrir o menu Shop outra vez!
+        // Passo 3: A página recarregou, por isso temos de abrir o menu Shop outra vez!
         js.executeScript("arguments[0].click();", us7.shopButton);
         Thread.sleep(2000);
 

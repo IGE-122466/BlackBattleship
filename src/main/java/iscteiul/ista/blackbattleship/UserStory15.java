@@ -11,7 +11,7 @@ public class UserStory15 {
     @FindBy(xpath = "//*[contains(text(), 'Play with a friend') or contains(text(), 'PLAY WITH A FRIEND')]")
     public WebElement playWithFriendButton;
 
-    // 2. A caixa de texto do Nickname (Localizador descoberto por ti no Selenium IDE!)
+    // 2. A caixa de texto do Nickname
     @FindBy(css = ".input-xl")
     public WebElement nicknameInput;
 

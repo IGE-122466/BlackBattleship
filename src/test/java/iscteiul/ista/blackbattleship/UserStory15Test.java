@@ -21,7 +21,6 @@ public class UserStory15Test {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         js = (JavascriptExecutor) driver;
 
-        // Vamos arrancar logo na página do jogo para ter o botão "Play with a friend"
         driver.get("https://papergames.io/en/battleship");
         us15 = new UserStory15(driver);
         Thread.sleep(3000);
@@ -43,7 +42,7 @@ public class UserStory15Test {
         us15.nicknameInput.sendKeys("RobotZe");
         Thread.sleep(1000);
 
-        // Em vez de procurar o botão de submeter, simulamos a tecla ENTER (muito mais fiável)
+        // Em vez de procurar o botão de submeter, simulamos a tecla ENTER
         us15.nicknameInput.sendKeys(Keys.ENTER);
         Thread.sleep(3000); // Dá tempo ao site de fazer o "login" de convidado
 

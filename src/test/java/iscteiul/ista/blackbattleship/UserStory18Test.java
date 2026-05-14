@@ -38,7 +38,6 @@ public class UserStory18Test {
         js.executeScript("arguments[0].click();", us18.developersLink);
         Thread.sleep(2000);
 
-        // Passo 2: O TRUQUE DO SEPARADOR (A tal linha "select window" da tua imagem)
         // Pedimos ao Java para olhar para todos os separadores abertos e mudar para o mais recente
         for (String janela : driver.getWindowHandles()) {
             driver.switchTo().window(janela);
