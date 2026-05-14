@@ -7,15 +7,16 @@ import org.openqa.selenium.support.PageFactory;
 
 public class UserStory15 {
 
-    // 1. Botão para jogar com um amigo
     @FindBy(xpath = "//*[contains(text(), 'Play with a friend') or contains(text(), 'PLAY WITH A FRIEND')]")
     public WebElement playWithFriendButton;
 
-    // 2. A caixa de texto do Nickname
     @FindBy(css = ".input-xl")
     public WebElement nicknameInput;
 
-    // 3. O botão do menu de mensagens
+
+    @FindBy(css = ".p-3 > .btn")
+    public WebElement confirmButton;
+
     @FindBy(xpath = "//*[contains(text(), 'Messaging') or contains(text(), 'MESSAGING')]")
     public WebElement chatMenuButton;
 

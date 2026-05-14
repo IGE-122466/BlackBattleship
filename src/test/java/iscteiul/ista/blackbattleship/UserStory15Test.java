@@ -4,7 +4,6 @@ import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
@@ -33,24 +32,26 @@ public class UserStory15Test {
 
     @Test
     public void testarAcessoPaginaChatComoConvidado() throws InterruptedException {
-        // Passo 1: Clicar em "Play with a friend" para invocar o popup de Nickname
+        // Passo 1: Clicar em "Play with a friend"
         js.executeScript("arguments[0].click();", us15.playWithFriendButton);
-        Thread.sleep(2000);
+        Thread.sleep(3000); // Aumentei o tempo para deixar a animação do pop-up terminar
 
-        // Passo 2: Escrever o Nickname do nosso Robô
-        us15.nicknameInput.clear(); // Limpa o campo por precaução
-        us15.nicknameInput.sendKeys("RobotZe");
+
+        js.executeScript("arguments[0].value='RobotZe';", us15.nicknameInput);
+
+        // Em sites modernos, é preciso avisar o sistema que o texto mudou
+        js.executeScript("arguments[0].dispatchEvent(new Event('input'));", us15.nicknameInput);
         Thread.sleep(1000);
 
-        // Em vez de procurar o botão de submeter, simulamos a tecla ENTER
-        us15.nicknameInput.sendKeys(Keys.ENTER);
-        Thread.sleep(3000); // Dá tempo ao site de fazer o "login" de convidado
+        // Passo 3: Clicar no botão de confirmar (o tal que apanhaste no IDE)
+        js.executeScript("arguments[0].click();", us15.confirmButton);
+        Thread.sleep(3000); // Dá tempo para fazer o login de convidado
 
-        // Passo 3: Agora que o menu foi destrancado, clicamos no "Messaging"
+        // Passo 4: Agora sim, abrir o menu Messaging
         js.executeScript("arguments[0].click();", us15.chatMenuButton);
         Thread.sleep(3000);
 
-        // Validação: Verificar se o URL mudou efetivamente para o chat
+        // Validação: Verificar se entrou no chat
         assertTrue(driver.getCurrentUrl().contains("chat"), "A navegação para a página do Chat falhou!");
     }
 }
