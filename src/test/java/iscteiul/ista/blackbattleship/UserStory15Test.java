@@ -2,12 +2,16 @@ package iscteiul.ista.blackbattleship;
 
 import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 
+/**
+ * Classe de testes para a User Story 15.
+ * Valida o acesso ao chat desbloqueando a funcionalidade através
+ * da criação de um utilizador "Guest" para contornar a autenticação.
+ */
 public class UserStory15Test {
     private WebDriver driver;
     private UserStory15 us15;
@@ -30,28 +34,25 @@ public class UserStory15Test {
         driver.quit();
     }
 
+    /**
+     * Testa o registo de utilizador convidado via injenção de JavaScript
+     * para evitar ElementNotInteractableException durante as animações de CSS.
+     */
     @Test
     public void testarAcessoPaginaChatComoConvidado() throws InterruptedException {
-        // Passo 1: Clicar em "Play with a friend"
         js.executeScript("arguments[0].click();", us15.playWithFriendButton);
-        Thread.sleep(3000); // Aumentei o tempo para deixar a animação do pop-up terminar
-
+        Thread.sleep(3000);
 
         js.executeScript("arguments[0].value='RobotZe';", us15.nicknameInput);
-
-        // Em sites modernos, é preciso avisar o sistema que o texto mudou
         js.executeScript("arguments[0].dispatchEvent(new Event('input'));", us15.nicknameInput);
         Thread.sleep(1000);
 
-        // Passo 3: Clicar no botão de confirmar (o tal que apanhaste no IDE)
         js.executeScript("arguments[0].click();", us15.confirmButton);
-        Thread.sleep(3000); // Dá tempo para fazer o login de convidado
+        Thread.sleep(3000);
 
-        // Passo 4: Agora sim, abrir o menu Messaging
         js.executeScript("arguments[0].click();", us15.chatMenuButton);
         Thread.sleep(3000);
 
-        // Validação: Verificar se entrou no chat
         assertTrue(driver.getCurrentUrl().contains("chat"), "A navegação para a página do Chat falhou!");
     }
 }

@@ -2,12 +2,15 @@ package iscteiul.ista.blackbattleship;
 
 import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 
+/**
+ * Classe de testes para a User Story 11.
+ * Valida o acesso à secção de Moedas Virtuais da loja.
+ */
 public class UserStory11Test {
     private WebDriver driver;
     private UserStory11 us11;
@@ -20,7 +23,6 @@ public class UserStory11Test {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         js = (JavascriptExecutor) driver;
 
-        // Abre o site na página inicial
         driver.get("https://papergames.io/en/");
         us11 = new UserStory11(driver);
         Thread.sleep(3000);
@@ -31,17 +33,18 @@ public class UserStory11Test {
         driver.quit();
     }
 
+    /**
+     * Testa a navegação contornando possíveis iframes de anúncios
+     * através de cliques injetados via JavaScript.
+     */
     @Test
     public void testarAcessoLojaMoedasVirtuais() throws InterruptedException {
-        // Passo 1: Abrir o menu da Loja
         js.executeScript("arguments[0].click();", us11.shopButton);
         Thread.sleep(2000);
 
-        // Passo 2: Clicar na aba das Moedas Virtuais
         js.executeScript("arguments[0].click();", us11.virtualCoinsTab);
-        Thread.sleep(3000); // Dá tempo à nova página de carregar
+        Thread.sleep(3000);
 
-        // Validação: Verificar se o URL mudou para as virtual-coins
         assertTrue(driver.getCurrentUrl().contains("virtual-coins"), "Não navegou para a página de Moedas Virtuais!");
     }
 }
