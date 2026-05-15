@@ -21,7 +21,68 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "74e7e864-1ded-4944-b1a6-5998d8dde82d",
+      "id": "81e96944-3925-4c36-92f2-45761038d17f",
+      "comment": "Cliquei no botão de \"Login\"",
+      "command": "click",
+      "target": "css=.btn-outline-dark",
+      "targets": [
+        ["css=.btn-outline-dark", "css:finder"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef3d03ed-a32f-49c2-95a6-b8038dca6666",
+      "comment": "Escrevi o input \"goufrappocrugra-7205@y.w80.it\"",
+      "command": "type",
+      "target": "id=mat-input-serverApp0",
+      "targets": [
+        ["id=mat-input-serverApp0", "id"],
+        ["css=#mat-input-serverApp0", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp0']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[2]/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "goufrappocrugra-7205@y.w80.it"
+    }, {
+      "id": "6625bae9-a112-4784-ad6f-49a607a99cb5",
+      "comment": "Cliquei no input para \"Password\"",
+      "command": "click",
+      "target": "id=mat-input-serverApp1",
+      "targets": [
+        ["id=mat-input-serverApp1", "id"],
+        ["css=#mat-input-serverApp1", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp1']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[3]/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65c627ef-c6d5-4ce7-bedf-d76747377b97",
+      "comment": "Escrevi o input \"12345678\"",
+      "command": "type",
+      "target": "id=mat-input-serverApp1",
+      "targets": [
+        ["id=mat-input-serverApp1", "id"],
+        ["css=#mat-input-serverApp1", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp1']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[3]/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "c457cca8-0bf5-4875-9b14-1cd5435b0c01",
+      "comment": "Cliquei no botão de \"Login\"",
+      "command": "click",
+      "target": "css=.w-100:nth-child(1) > .btn-secondary > .front",
+      "targets": [
+        ["css=.w-100:nth-child(1) > .btn-secondary > .front", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[4]/app-juicy-button/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/app-juicy-button/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c33acc6f-6a85-49c7-b38c-8226683a8577",
       "comment": "Cliquei na aba \"Friends\" à esquerda",
       "command": "click",
       "target": "linkText=Friends",
@@ -180,6 +241,67 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "1fe4ba0b-47bf-4494-bf7c-db413f3d5731",
+      "comment": "Cliquei no botão de \"Login\"",
+      "command": "click",
+      "target": "css=.btn-outline-dark",
+      "targets": [
+        ["css=.btn-outline-dark", "css:finder"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73ecde7e-560c-468f-8b97-c969539fe6bf",
+      "comment": "Escrevi o input \"goufrappocrugra-7205@y.w80.it\"",
+      "command": "type",
+      "target": "id=mat-input-serverApp0",
+      "targets": [
+        ["id=mat-input-serverApp0", "id"],
+        ["css=#mat-input-serverApp0", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp0']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[2]/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "goufrappocrugra-7205@y.w80.it"
+    }, {
+      "id": "4358fd21-e03f-4e8c-929e-7cbe36843545",
+      "comment": "Cliquei no input para \"Password\"",
+      "command": "click",
+      "target": "id=mat-input-serverApp1",
+      "targets": [
+        ["id=mat-input-serverApp1", "id"],
+        ["css=#mat-input-serverApp1", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp1']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[3]/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "556ffecc-59f5-483a-9b28-7b5f1e0daf27",
+      "comment": "Escrevi o input \"12345678\"",
+      "command": "type",
+      "target": "id=mat-input-serverApp1",
+      "targets": [
+        ["id=mat-input-serverApp1", "id"],
+        ["css=#mat-input-serverApp1", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp1']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[3]/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "8deb1d63-c297-49af-b32a-95a68ecba4d7",
+      "comment": "Cliquei no botão de \"Login\"",
+      "command": "click",
+      "target": "css=.w-100:nth-child(1) > .btn-secondary > .front",
+      "targets": [
+        ["css=.w-100:nth-child(1) > .btn-secondary > .front", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[4]/app-juicy-button/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/app-juicy-button/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
       "id": "fe79e1e9-e119-4638-ac9c-421aee4fe580",
       "comment": "Cliquei em \"Play vs robot\" nas opções",
       "command": "click",
@@ -229,6 +351,67 @@
       "command": "setWindowSize",
       "target": "1057x900",
       "targets": [],
+      "value": ""
+    }, {
+      "id": "af46ff37-88b1-4e09-9b71-bed4803c2dca",
+      "comment": "Cliquei no botão de \"Login\"",
+      "command": "click",
+      "target": "css=.btn-outline-dark",
+      "targets": [
+        ["css=.btn-outline-dark", "css:finder"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f91689b-c7f2-43d0-a732-e1ff43feb8f6",
+      "comment": "Escrevi o input \"goufrappocrugra-7205@y.w80.it\"",
+      "command": "type",
+      "target": "id=mat-input-serverApp0",
+      "targets": [
+        ["id=mat-input-serverApp0", "id"],
+        ["css=#mat-input-serverApp0", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp0']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[2]/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "goufrappocrugra-7205@y.w80.it"
+    }, {
+      "id": "4e25f68f-8303-48fd-b83a-d8c485012ba2",
+      "comment": "Cliquei no input para \"Password\"",
+      "command": "click",
+      "target": "id=mat-input-serverApp1",
+      "targets": [
+        ["id=mat-input-serverApp1", "id"],
+        ["css=#mat-input-serverApp1", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp1']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[3]/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d144837f-7ccb-462f-9e1a-9eadc4db4656",
+      "comment": "Escrevi o input \"12345678\"",
+      "command": "type",
+      "target": "id=mat-input-serverApp1",
+      "targets": [
+        ["id=mat-input-serverApp1", "id"],
+        ["css=#mat-input-serverApp1", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp1']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[3]/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "2f521b2e-3c6b-4b87-bf27-89b0ddf7b922",
+      "comment": "Cliquei no botão de \"Login\"",
+      "command": "click",
+      "target": "css=.w-100:nth-child(1) > .btn-secondary > .front",
+      "targets": [
+        ["css=.w-100:nth-child(1) > .btn-secondary > .front", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[4]/app-juicy-button/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/app-juicy-button/button/span[2]", "xpath:position"]
+      ],
       "value": ""
     }, {
       "id": "3f91132f-e0ab-4352-9c44-c5d3db192052",
@@ -284,7 +467,7 @@
       "id": "e1d5aa9c-3a0f-4033-8c06-ce40e37493da",
       "comment": "Cliquei no input para \"Tournament name\"",
       "command": "click",
-      "target": "id=mat-input-serverApp0",
+      "target": "xpath=//input",
       "targets": [
         ["id=mat-input-serverApp0", "id"],
         ["css=#mat-input-serverApp0", "css:finder"],
@@ -293,39 +476,15 @@
       ],
       "value": ""
     }, {
-      "id": "c9f1b1be-7097-46ff-a57d-24dd5dd8ec1c",
+      "id": "a9dcbc3d-531a-4b0c-84a7-0ab2b3119f6d",
       "comment": "Escrevi o nome \"IGE_122994\"",
       "command": "type",
-      "target": "id=mat-input-serverApp0",
+      "target": "id=mat-input-serverApp2",
       "targets": [
-        ["id=mat-input-serverApp0", "id"],
-        ["css=#mat-input-serverApp0", "css:finder"],
-        ["xpath=//input[@id='mat-input-serverApp0']", "xpath:attributes"],
+        ["id=mat-input-serverApp2", "id"],
+        ["css=#mat-input-serverApp2", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp2']", "xpath:attributes"],
         ["xpath=//input", "xpath:position"]
-      ],
-      "value": "IGE_122994"
-    }, {
-      "id": "de9feb00-4db5-4bce-982d-a6ffed84e598",
-      "comment": "Cliquei no input para \"Description\"",
-      "command": "click",
-      "target": "id=mat-input-serverApp1",
-      "targets": [
-        ["id=mat-input-serverApp1", "id"],
-        ["css=#mat-input-serverApp1", "css:finder"],
-        ["xpath=//textarea[@id='mat-input-serverApp1']", "xpath:attributes"],
-        ["xpath=//textarea", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "0c839d81-6753-4d00-bb07-b32aa7d335cb",
-      "comment": "Escrevi a descrição \"IGE_122994\"",
-      "command": "type",
-      "target": "id=mat-input-serverApp1",
-      "targets": [
-        ["id=mat-input-serverApp1", "id"],
-        ["css=#mat-input-serverApp1", "css:finder"],
-        ["xpath=//textarea[@id='mat-input-serverApp1']", "xpath:attributes"],
-        ["xpath=//textarea", "xpath:position"]
       ],
       "value": "IGE_122994"
     }, {
@@ -364,7 +523,7 @@
       "id": "982be675-21cd-47d0-8491-3b0efd8908e0",
       "comment": "Escolhi o input \"3 minutes\"",
       "command": "click",
-      "target": "id=mat-option-serverApp16",
+      "target": "xpath=//div[@id='mat-select-serverApp3-panel']/mat-option[3]",
       "targets": [
         ["id=mat-option-serverApp16", "id"],
         ["css=#mat-option-serverApp16", "css:finder"],
@@ -391,7 +550,7 @@
       "id": "859b0226-3e44-4854-882b-644603863868",
       "comment": "Escolhi o input \"15 pts\"",
       "command": "click",
-      "target": "id=mat-option-serverApp22",
+      "target": "xpath=//div[@id='mat-select-serverApp4-panel']/mat-option[4]",
       "targets": [
         ["id=mat-option-serverApp22", "id"],
         ["css=#mat-option-serverApp22", "css:finder"],
@@ -417,11 +576,20 @@
       "id": "bffe6b1a-d6fd-4d35-9e2d-d8ab47bc651d",
       "comment": "Cliquei no botão para sair do popup",
       "command": "click",
-      "target": "xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/header/div/button/span[3]",
+      "target": "xpath=//div/button/span[3]",
       "targets": [
         ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
         ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/header/div/button/span[3]", "xpath:idRelative"],
         ["xpath=//div/button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9505992e-c34c-4d0e-b53f-da339c22c404",
+      "comment": "Cliquei no botão que mostra as abas",
+      "command": "click",
+      "target": "css=.fa-angles-right",
+      "targets": [
+        ["css=.fa-angles-right", "css:finder"]
       ],
       "value": ""
     }, {
@@ -492,7 +660,7 @@
       "id": "7cc00877-4115-4a25-9c58-71620342f542",
       "comment": "Cliquei no input para \"Tournament name\"",
       "command": "click",
-      "target": "id=mat-input-serverApp2",
+      "target": "xpath=//input",
       "targets": [
         ["id=mat-input-serverApp2", "id"],
         ["css=#mat-input-serverApp2", "css:finder"],
@@ -501,39 +669,15 @@
       ],
       "value": ""
     }, {
-      "id": "d7ceae95-18fc-4efe-897c-7c06bb1802ed",
+      "id": "be6c027b-32aa-4fcd-ac14-5824b0dccf7d",
       "comment": "Escrevi o nome \"IGE_122466\"",
       "command": "type",
-      "target": "id=mat-input-serverApp2",
+      "target": "id=mat-input-serverApp4",
       "targets": [
-        ["id=mat-input-serverApp2", "id"],
-        ["css=#mat-input-serverApp2", "css:finder"],
-        ["xpath=//input[@id='mat-input-serverApp2']", "xpath:attributes"],
+        ["id=mat-input-serverApp4", "id"],
+        ["css=#mat-input-serverApp4", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp4']", "xpath:attributes"],
         ["xpath=//input", "xpath:position"]
-      ],
-      "value": "IGE_122466"
-    }, {
-      "id": "0b676cd1-bbb1-4fbb-9e7a-7c1e0a5e3bcd",
-      "comment": "Cliquei no input para \"Description\"",
-      "command": "click",
-      "target": "id=mat-input-serverApp3",
-      "targets": [
-        ["id=mat-input-serverApp3", "id"],
-        ["css=#mat-input-serverApp3", "css:finder"],
-        ["xpath=//textarea[@id='mat-input-serverApp3']", "xpath:attributes"],
-        ["xpath=//textarea", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "fe94bf3a-588b-4e19-8ab5-2ec92b61a2c2",
-      "comment": "Escrevi o input \"IGE_122466\"",
-      "command": "type",
-      "target": "id=mat-input-serverApp3",
-      "targets": [
-        ["id=mat-input-serverApp3", "id"],
-        ["css=#mat-input-serverApp3", "css:finder"],
-        ["xpath=//textarea[@id='mat-input-serverApp3']", "xpath:attributes"],
-        ["xpath=//textarea", "xpath:position"]
       ],
       "value": "IGE_122466"
     }, {
@@ -580,7 +724,7 @@
       "id": "89fe6861-ce73-44da-b467-2cb911bc74ca",
       "comment": "Escolhi o input \"1 minutes\"",
       "command": "click",
-      "target": "id=mat-option-serverApp37",
+      "target": "xpath=//div[@id='mat-select-serverApp8-panel']/mat-option",
       "targets": [
         ["id=mat-option-serverApp37", "id"],
         ["css=#mat-option-serverApp37", "css:finder"],
@@ -611,6 +755,15 @@
         ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
         ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/header/div/button/span[3]", "xpath:idRelative"],
         ["xpath=//div/button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2870bcdb-0af3-49af-a025-d84205bc6269",
+      "comment": "Cliquei no botão que mostra as abas",
+      "command": "click",
+      "target": "css=.fa-angles-right",
+      "targets": [
+        ["css=.fa-angles-right", "css:finder"]
       ],
       "value": ""
     }, {
@@ -697,7 +850,7 @@
       "id": "42e3c31d-e5cd-4c79-bdde-1a9bcea63c46",
       "comment": "Cliquei no input para \"Tournament name\"",
       "command": "click",
-      "target": "id=mat-input-serverApp4",
+      "target": "xpath=//input",
       "targets": [
         ["id=mat-input-serverApp4", "id"],
         ["css=#mat-input-serverApp4", "css:finder"],
@@ -706,39 +859,15 @@
       ],
       "value": ""
     }, {
-      "id": "fa0cda8b-75d4-4f9c-93d2-3e1e80295088",
+      "id": "237bf74c-2425-4dd1-9eb0-046453e357fb",
       "comment": "Escrevi o input \"IGE_110323\"",
       "command": "type",
-      "target": "id=mat-input-serverApp4",
+      "target": "id=mat-input-serverApp6",
       "targets": [
-        ["id=mat-input-serverApp4", "id"],
-        ["css=#mat-input-serverApp4", "css:finder"],
-        ["xpath=//input[@id='mat-input-serverApp4']", "xpath:attributes"],
+        ["id=mat-input-serverApp6", "id"],
+        ["css=#mat-input-serverApp6", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp6']", "xpath:attributes"],
         ["xpath=//input", "xpath:position"]
-      ],
-      "value": "IGE_110323"
-    }, {
-      "id": "7816d73a-5223-4325-a4d0-c89c20cd8e5b",
-      "comment": "Cliquei no input para \"Description\"",
-      "command": "click",
-      "target": "id=mat-input-serverApp5",
-      "targets": [
-        ["id=mat-input-serverApp5", "id"],
-        ["css=#mat-input-serverApp5", "css:finder"],
-        ["xpath=//textarea[@id='mat-input-serverApp5']", "xpath:attributes"],
-        ["xpath=//textarea", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "8ca1659b-db0e-4d38-a135-4e64ba05a01d",
-      "comment": "Escrevi o input \"IGE_110323\"",
-      "command": "type",
-      "target": "id=mat-input-serverApp5",
-      "targets": [
-        ["id=mat-input-serverApp5", "id"],
-        ["css=#mat-input-serverApp5", "css:finder"],
-        ["xpath=//textarea[@id='mat-input-serverApp5']", "xpath:attributes"],
-        ["xpath=//textarea", "xpath:position"]
       ],
       "value": "IGE_110323"
     }, {
@@ -769,24 +898,23 @@
       ],
       "value": ""
     }, {
-      "id": "05ecfbf1-7b45-47a3-b7c5-435337c5d0f9",
+      "id": "319a6924-8d2c-4454-86e9-423a14dc9d05",
       "comment": "Cliquei no input para \"Minutes per player\"",
       "command": "click",
-      "target": "css=.ng-untouched .mat-mdc-form-field-infix",
+      "target": "css=#mat-select-serverApp14 svg",
       "targets": [
-        ["css=.ng-untouched .mat-mdc-form-field-infix", "css:finder"],
-        ["xpath=//div[6]/mat-form-field/div/div/div[2]", "xpath:position"]
+        ["css=#mat-select-serverApp14 svg", "css:finder"]
       ],
       "value": ""
     }, {
-      "id": "b95ada6e-3615-4fb0-9bb0-1d21d3a9d4f3",
+      "id": "2dae2319-db7a-4389-b156-6616d49cc142",
       "comment": "Escolhi o input \"5 minutes\"",
       "command": "click",
-      "target": "id=mat-option-serverApp67",
+      "target": "id=mat-option-serverApp71",
       "targets": [
-        ["id=mat-option-serverApp67", "id"],
-        ["css=#mat-option-serverApp67", "css:finder"],
-        ["xpath=//mat-option[@id='mat-option-serverApp67']", "xpath:attributes"],
+        ["id=mat-option-serverApp71", "id"],
+        ["css=#mat-option-serverApp71", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-serverApp71']", "xpath:attributes"],
         ["xpath=//div[@id='mat-select-serverApp14-panel']/mat-option[4]", "xpath:idRelative"],
         ["xpath=//mat-option[4]", "xpath:position"],
         ["xpath=//mat-option[contains(.,'5 minutes')]", "xpath:innerText"]
@@ -808,7 +936,7 @@
       "id": "0e4a4e96-65e5-4b20-91c3-98413af00f55",
       "comment": "Cliquei no botão para sair do popup",
       "command": "click",
-      "target": "xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp2']/div/div/app-sign-up-dialog/app-dialog-layout/div/header/div/button/span[3]",
+      "target": "xpath=//div/button/span[3]",
       "targets": [
         ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
         ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp2']/div/div/app-sign-up-dialog/app-dialog-layout/div/header/div/button/span[3]", "xpath:idRelative"],
