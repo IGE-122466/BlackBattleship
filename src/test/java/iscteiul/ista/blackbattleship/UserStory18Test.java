@@ -2,12 +2,16 @@ package iscteiul.ista.blackbattleship;
 
 import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 
+/**
+ * Classe de testes para a User Story 18.
+ * Valida a navegação e o correto carregamento da página dos desenvolvedores,
+ * lidando com a abertura de um novo separador (window handles).
+ */
 public class UserStory18Test {
     private WebDriver driver;
     private UserStory18 us18;
@@ -20,7 +24,6 @@ public class UserStory18Test {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         js = (JavascriptExecutor) driver;
 
-        // O robot abre a página inicial do jogo
         driver.get("https://papergames.io/en/");
         us18 = new UserStory18(driver);
         Thread.sleep(3000);
@@ -31,23 +34,22 @@ public class UserStory18Test {
         driver.quit();
     }
 
+    /**
+     * Testa o clique no link de Developers e a respetiva mudança de contexto
+     * para a nova janela/separador gerada pelo browser.
+     */
     @Test
     public void testarAcessoPaginaDevelopers() throws InterruptedException {
-        // Passo 1: Clicar no link "Developers"
-        // Como o link está no fundo da página, o JavascriptExecutor é perfeito porque clica mesmo que esteja invisível
         js.executeScript("arguments[0].click();", us18.developersLink);
         Thread.sleep(2000);
 
-        // Pedimos ao Java para olhar para todos os separadores abertos e mudar para o mais recente
+        // Muda o foco do WebDriver para o novo separador aberto
         for (String janela : driver.getWindowHandles()) {
             driver.switchTo().window(janela);
         }
-        Thread.sleep(3000); // Dá tempo ao novo separador de carregar
+        Thread.sleep(3000);
 
-        // Validação 1: O URL no novo separador está correto?
         assertTrue(driver.getCurrentUrl().contains("developers.papergames.io"), "Não navegou para o separador de developers!");
-
-        // Validação 2: A página abriu e tem o título?
         assertTrue(us18.tituloPrincipal.isDisplayed(), "O título da página de developers não está visível!");
     }
 }
