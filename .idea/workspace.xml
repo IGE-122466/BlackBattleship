@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ed1d170-8e2e-4ddf-bca8-202214bf0655" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/UserStory6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory6Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/selenide_122994/UserStory4Selenide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/selenide_122994/UserStory4SelenideTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory14Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory14Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory4Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory9Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory9Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +58,10 @@
     "JUnit.UserStory16Test.testClicarShopNavegaParaPaginaShop.executor": "Run",
     "JUnit.UserStory18Test.executor": "Run",
     "JUnit.UserStory2Test.executor": "Run",
+    "JUnit.UserStory4SelenideTest.executor": "Run",
+    "JUnit.UserStory4SelenideTest.loginAndFriendsLinkHasCorrectText.executor": "Run",
+    "JUnit.UserStory4SelenideTest.loginAndFriendsLinkIsVisible.executor": "Run",
+    "JUnit.UserStory4SelenideTest.loginAndNavigatesToFriends.executor": "Run",
     "JUnit.UserStory4Test.executor": "Run",
     "JUnit.UserStory4Test.loginAndLinkHasCorrectText.executor": "Run",
     "JUnit.UserStory4Test.loginAndLinkIsVisible.executor": "Run",
@@ -79,73 +81,73 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "IGE-122994",
+    "git-widget-placeholder": "TestSuite__122994",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.UserStory6Test.createDoubleEliminationTournamentSucceeds">
-    <configuration name="UserStory6Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserStory4SelenideTest.loginAndFriendsLinkHasCorrectText">
+    <configuration name="UserStory4SelenideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iscteiul.ista.blackbattleship.*" />
+          <option name="PATTERN" value="iscteiul.ista.blackbattleship.selenide_122994.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.UserStory6Test" />
+      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship.selenide_122994" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide_122994.UserStory4SelenideTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory6Test.createDoubleEliminationTournamentSucceeds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserStory4SelenideTest.loginAndFriendsLinkHasCorrectText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iscteiul.ista.blackbattleship.*" />
+          <option name="PATTERN" value="iscteiul.ista.blackbattleship.selenide_122994.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.UserStory6Test" />
-      <option name="METHOD_NAME" value="createDoubleEliminationTournamentSucceeds" />
+      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship.selenide_122994" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide_122994.UserStory4SelenideTest" />
+      <option name="METHOD_NAME" value="loginAndFriendsLinkHasCorrectText" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory6Test.createLeaderboardTournamentSucceeds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserStory4SelenideTest.loginAndFriendsLinkIsVisible" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iscteiul.ista.blackbattleship.*" />
+          <option name="PATTERN" value="iscteiul.ista.blackbattleship.selenide_122994.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.UserStory6Test" />
-      <option name="METHOD_NAME" value="createLeaderboardTournamentSucceeds" />
+      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship.selenide_122994" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide_122994.UserStory4SelenideTest" />
+      <option name="METHOD_NAME" value="loginAndFriendsLinkIsVisible" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory6Test.createSingleEliminationTournamentSucceeds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserStory4SelenideTest.loginAndNavigatesToFriends" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iscteiul.ista.blackbattleship.*" />
+          <option name="PATTERN" value="iscteiul.ista.blackbattleship.selenide_122994.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.UserStory6Test" />
-      <option name="METHOD_NAME" value="createSingleEliminationTournamentSucceeds" />
+      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship.selenide_122994" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide_122994.UserStory4SelenideTest" />
+      <option name="METHOD_NAME" value="loginAndNavigatesToFriends" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,13 +170,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserStory6Test.createDoubleEliminationTournamentSucceeds" />
-        <item itemvalue="JUnit.UserStory6Test" />
-        <item itemvalue="JUnit.UserStory6Test.createSingleEliminationTournamentSucceeds" />
-        <item itemvalue="JUnit.UserStory6Test.createLeaderboardTournamentSucceeds" />
+        <item itemvalue="JUnit.UserStory4SelenideTest.loginAndFriendsLinkHasCorrectText" />
+        <item itemvalue="JUnit.UserStory4SelenideTest.loginAndFriendsLinkIsVisible" />
+        <item itemvalue="JUnit.UserStory4SelenideTest.loginAndNavigatesToFriends" />
+        <item itemvalue="JUnit.UserStory4SelenideTest" />
         <item itemvalue="JUnit.UserStory9Test" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastFrameworkName" value="Selenide" />
+    <option name="lastLanguageId" value="JAVA" />
+    <option name="lastUrl" value="https://papergames.io/en/battleship" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -193,7 +200,11 @@
       <workItem from="1778775438506" duration="221000" />
       <workItem from="1778792160568" duration="12996000" />
       <workItem from="1778841294036" duration="8283000" />
-      <workItem from="1778857295375" duration="4848000" />
+      <workItem from="1778857295375" duration="5313000" />
+      <workItem from="1778862722370" duration="87000" />
+      <workItem from="1778876482658" duration="1964000" />
+      <workItem from="1778879060800" duration="220000" />
+      <workItem from="1778879298395" duration="3372000" />
     </task>
     <servers />
   </component>
