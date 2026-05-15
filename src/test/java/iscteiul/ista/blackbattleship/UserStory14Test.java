@@ -33,7 +33,7 @@ import static org.junit.jupiter.api.Assertions.*;
  *   <li>{@code click linkText=Privacy} – clique na hiperligação "Privacy".</li>
  * </ol>
  *
- * @author  IGE_122994
+ * @author IGE_122994
  */
 public class UserStory14Test {
 
@@ -113,6 +113,8 @@ public class UserStory14Test {
      */
     @Test
     public void navigatesToTheRightPage() throws InterruptedException {
+        sleep(5000);
+
         // Passo 4 do Selenium IDE – click linkText=Privacy
         userStory14Page.privacyLink.click();
         sleep(1000);
@@ -130,7 +132,7 @@ public class UserStory14Test {
      */
     @Test
     public void linkIsVisible() throws InterruptedException {
-        sleep(1000);
+        sleep(5000);
         assertTrue(userStory14Page.privacyLink.isDisplayed(),
                 "A hiperligação 'Privacy' deveria estar visível na página.");
     }
@@ -143,7 +145,7 @@ public class UserStory14Test {
      */
     @Test
     public void linkHasTheCorrectText() throws InterruptedException {
-        sleep(1000);
+        sleep(5000);
         assertEquals("Privacy", userStory14Page.privacyLink.getText(),
                 "O texto da hiperligação deveria ser 'Privacy'.");
     }

@@ -30,7 +30,7 @@ import org.openqa.selenium.support.PageFactory;
  *   <li>Mudança de foco para a nova janela de merchandising.</li>
  * </ol>
  *
- * @author  IGE_122994
+ * @author IGE_122994
  */
 public class UserStory16 {
 

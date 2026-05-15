@@ -37,7 +37,7 @@ import static org.junit.jupiter.api.Assertions.*;
  *   <li>{@code selectWindow handle=${win7933}} – muda para a nova janela de merchandising.</li>
  * </ol>
  *
- * @author  IGE_122994
+ * @author IGE_122994
  */
 public class UserStory16Test {
 
@@ -113,11 +113,13 @@ public class UserStory16Test {
      */
     @Test
     public void clickingGoodiesOpensNewPage() throws InterruptedException {
+        sleep(5000);
+
         String janelaPrincipal = driver.getWindowHandle();
 
         // Passo 3 do Selenium IDE – click linkText=Goodies
         userStory16Page.goodiesNavLink.click();
-        sleep(1000);
+        sleep(3000);
 
         // Passos 4 e 5 – storeWindowHandle + selectWindow para a nova janela
         for (String janela : driver.getWindowHandles()) {
@@ -145,9 +147,11 @@ public class UserStory16Test {
      */
     @Test
     public void navigatesToTheRightPage() throws InterruptedException {
+        sleep(5000);
+
         // Passo 7 do Selenium IDE – click linkText=Shop
         userStory16Page.shopNavLink.click();
-        sleep(1000);
+        sleep(3000);
 
         assertTrue(driver.getCurrentUrl().contains("/en/shop"),
                 "O URL deveria conter '/en/shop' após clicar em 'Shop'.");
@@ -165,15 +169,17 @@ public class UserStory16Test {
      */
     @Test
     public void clickingGoodiesInShopOpensNewPage() throws InterruptedException {
+        sleep(5000);
+
         String janelaPrincipal = driver.getWindowHandle();
 
         // Passo 7 – click linkText=Shop
         userStory16Page.shopNavLink.click();
-        sleep(1000);
+        sleep(3000);
 
         // Passo 8 – click css=.mb-2 > .w-100 (botão Goodies no Shop)
         userStory16Page.goodiesShopButton.click();
-        sleep(1000);
+        sleep(2000);
 
         // Passo 9 – selectWindow handle=${win7933}: mudar para a nova janela
         for (String janela : driver.getWindowHandles()) {

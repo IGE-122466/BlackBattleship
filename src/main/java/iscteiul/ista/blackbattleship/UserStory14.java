@@ -24,7 +24,7 @@ import org.openqa.selenium.support.PageFactory;
  *   <li>Clique na hiperligação "Privacy" no rodapé da página.</li>
  * </ol>
  *
- * @author  IGE_122994
+ * @author IGE_122994
  */
 public class UserStory14 {
 
