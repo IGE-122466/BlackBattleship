@@ -1,0 +1,261 @@
+{
+  "id": "16ef2321-a396-4b1e-a916-7490ada1eafa",
+  "version": "2.0",
+  "name": "BlackBattleship_122466",
+  "url": "https://papergames.io",
+  "tests": [{
+    "id": "3f41132b-eccb-4863-848a-bf30c5b1453a",
+    "name": "UserStoryTest2",
+    "commands": [{
+      "id": "09676e6c-e427-4849-895c-21402f104ef4",
+      "comment": "Abrir a página inicial do Papergames",
+      "command": "open",
+      "target": "/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43516077-36c5-4f97-b45a-88b2942ffed6",
+      "comment": "Ajustar o tamanho da janela",
+      "command": "setWindowSize",
+      "target": "1054x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1aead62e-6ec5-4acd-8875-e4f9ef6ef24d",
+      "comment": "Selecionar o jogo Batalha Naval",
+      "command": "click",
+      "target": "css=.game-item:nth-child(1) .img-fluid",
+      "targets": [
+        ["css=.game-item:nth-child(1) .img-fluid", "css:finder"],
+        ["xpath=//img[@alt='Battleship']", "xpath:img"],
+        ["xpath=//a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9a8da44-0e5d-4e97-8ec3-fb791ea14642",
+      "comment": "Clicar no botão Play with a friend",
+      "command": "click",
+      "target": "css=.w-100:nth-child(1) > .btn-lg .flex-grow-1",
+      "targets": [
+        ["css=.w-100:nth-child(1) > .btn-lg .flex-grow-1", "css:finder"],
+        ["xpath=//app-juicy-button/button/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b9b4b28a-0921-4d62-9fe2-82601d0aa08b",
+    "name": "UserStoryTest11",
+    "commands": [{
+      "id": "adbdf2e9-7c6c-4051-9abe-6ff998e12936",
+      "comment": "Abrir a página inicial do Papergames",
+      "command": "open",
+      "target": "/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6d3033c-6485-4f96-9bb6-587a50763e10",
+      "comment": "Ajustar o tamanho da janela",
+      "command": "setWindowSize",
+      "target": "1064x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1395e619-d3c9-41b6-a9ea-d980ce10b245",
+      "comment": "Ir à loja",
+      "command": "click",
+      "target": "linkText=Shop",
+      "targets": [
+        ["linkText=Shop", "linkText"],
+        ["css=.cdk-focused", "css:finder"],
+        ["xpath=//a[contains(@href, '/en/shop')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "385a0b29-ec34-4171-b42c-0db35caa5023",
+      "comment": "Ir à loja das moedas virtuais",
+      "command": "click",
+      "target": "css=.box-shadow-1:nth-child(1) > .btn > div",
+      "targets": [
+        ["css=.box-shadow-1:nth-child(1) > .btn > div", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "21e35994-fc04-4cab-8fb1-3d2659d22e37",
+    "name": "UserStoryTest18",
+    "commands": [{
+      "id": "d5ee39ee-390b-4a8a-841b-ecb12c61627d",
+      "comment": "Abrir a página inicial do Papergames",
+      "command": "open",
+      "target": "/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9aff67bd-d8d6-4f0b-921f-30535c3bc3b5",
+      "comment": "Ajustar o tamanho da janela",
+      "command": "setWindowSize",
+      "target": "1051x797",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f439f860-2779-4e60-b7f3-fa9172006a1a",
+      "comment": "Ir para a página \"Developers\"",
+      "command": "click",
+      "target": "linkText=Developers",
+      "targets": [
+        ["linkText=Developers", "linkText"],
+        ["css=.hide-if-collapsed > .nav-item:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Developers')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://developers.papergames.io')]", "xpath:href"],
+        ["xpath=//ul[5]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Developers')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8449",
+      "windowTimeout": 2000
+    }]
+  }, {
+    "id": "2f4074fc-c83f-42f2-8932-12106dc17168",
+    "name": "UserStoryTest7",
+    "commands": [{
+      "id": "ae73feab-c693-41be-99c9-b2f6157ba768",
+      "comment": "Abrir a página inicial do Papergames",
+      "command": "open",
+      "target": "/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e8944df-ca67-4eef-a436-735ba006f8ce",
+      "comment": "Ajustar o tamanho da janela",
+      "command": "setWindowSize",
+      "target": "1062x807",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "700e74b9-4ecd-4055-8467-9c84e2692da1",
+      "comment": "Ir à loja",
+      "command": "click",
+      "target": "linkText=Shop",
+      "targets": [
+        ["linkText=Shop", "linkText"],
+        ["css=.cdk-focused", "css:finder"],
+        ["xpath=//a[contains(@href, '/en/shop')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef5ccf6b-9c1e-450b-8e0e-0f4cf83cd366",
+      "comment": "Ir à loja de emojis",
+      "command": "click",
+      "target": "css=.box-shadow-1:nth-child(3) .w-75",
+      "targets": [
+        ["css=.box-shadow-1:nth-child(3) .w-75", "css:finder"],
+        ["xpath=//img[@alt='Emojis']", "xpath:img"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f33cf2a7-0e0e-4306-a007-a93b5896f9c4",
+      "comment": "Voltar à loja",
+      "command": "click",
+      "target": "linkText=Shop",
+      "targets": [
+        ["linkText=Shop", "linkText"],
+        ["css=.cdk-focused", "css:finder"],
+        ["xpath=//a[contains(@href, '/en/shop')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5913071-c6bc-4bd8-8441-bdae260ad0f2",
+      "comment": "Ir à loja dos avatares",
+      "command": "click",
+      "target": "css=.box-shadow-1:nth-child(2) .w-75",
+      "targets": [
+        ["css=.box-shadow-1:nth-child(2) .w-75", "css:finder"],
+        ["xpath=//img[@alt='Monsters']", "xpath:img"],
+        ["xpath=//div[2]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "eb0e54b7-2639-4832-bf3d-904082d9176f",
+    "name": "UserStoryTest15",
+    "commands": [{
+      "id": "080b6b66-5380-4515-9a3d-1c55e5762439",
+      "comment": "Abrir a página inicial do Papergames",
+      "command": "open",
+      "target": "/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2be88e88-d9e6-424c-8b0f-306d9b704ab2",
+      "comment": "Ajustar o tamanho da janela",
+      "command": "setWindowSize",
+      "target": "1068x810",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfee9746-0273-4074-897b-1a2c410009ee",
+      "comment": "Escolher o jogo \"Battleship\"",
+      "command": "click",
+      "target": "css=.game-item:nth-child(1) .img-fluid",
+      "targets": [
+        ["css=.game-item:nth-child(1) .img-fluid", "css:finder"],
+        ["xpath=//img[@alt='Battleship']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f1cbb2d-0771-43c6-a920-b009ffedf063",
+      "comment": "Clicar para jogar com um amigo",
+      "command": "click",
+      "target": "css=.w-100:nth-child(1) .flex-grow-1",
+      "targets": [
+        ["css=.w-100:nth-child(1) .flex-grow-1", "css:finder"],
+        ["xpath=//span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9ade320-8dfc-4565-8076-f03921ca488d",
+      "comment": "Escrever um nome",
+      "command": "type",
+      "target": "css=.input-xl",
+      "targets": [
+        ["css=.input-xl", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-guest-registration-dialog/form/app-dialog-layout/div/section/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "zee"
+    }, {
+      "id": "789b531d-2490-459a-af56-ff1b4962e0dd",
+      "comment": "Enviar o nome que pretendo ter",
+      "command": "sendKeys",
+      "target": "css=.input-xl",
+      "targets": [
+        ["css=.input-xl", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-guest-registration-dialog/form/app-dialog-layout/div/section/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "aa7698fd-dede-4796-881e-1ee44ff1717b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://papergames.io/"],
+  "plugins": []
+}
