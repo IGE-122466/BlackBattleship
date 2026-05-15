@@ -101,6 +101,40 @@ public class UserStory4Test {
     }
 
     // -------------------------------------------------------------------------
+    // Método auxiliar de login (evita repetição nos três testes)
+    // -------------------------------------------------------------------------
+
+    /**
+     * Executa o fluxo de login completo (passos 3 a 7 do Selenium IDE) e
+     * aguarda que a página esteja pronta após a autenticação.
+     *
+     * <p>Este método é partilhado pelos três testes, que são todos
+     * independentes entre si mas requerem login como pré-condição.</p>
+     *
+     * @throws InterruptedException se a thread for interrompida durante o
+     *                              {@code sleep}
+     */
+    private void doLogin() throws InterruptedException {
+        sleep(5000);
+
+        // Passo 3 – click Login
+        userStory4Page.loginButton.click();
+        sleep(1000);
+
+        // Passo 4 – email
+        userStory4Page.emailInput.sendKeys("goufrappocrugra-7205@y.w80.it");
+        sleep(1000);
+
+        // Passo 6 – password
+        userStory4Page.passwordInput.sendKeys("12345678");
+        sleep(1000);
+
+        // Passo 7 – click Login no diálogo
+        userStory4Page.loginDialogButton.click();
+        sleep(5000);
+    }
+
+    // -------------------------------------------------------------------------
     // Métodos de teste
     // -------------------------------------------------------------------------
 
@@ -116,23 +150,7 @@ public class UserStory4Test {
      */
     @Test
     public void loginAndNavigatesToTheRightPage() throws InterruptedException {
-        sleep(5000);
-
-        // Passo 3 – click login
-        userStory4Page.loginButton.click();
-        sleep(1000);
-
-        // Passo 4 – email
-        userStory4Page.emailInput.sendKeys("goufrappocrugra-7205@y.w80.it");
-        sleep(1000);
-
-        // Passo 6 – password
-        userStory4Page.passwordInput.sendKeys("12345678");
-        sleep(1000);
-
-        // Passo 7 – click Login no diálogo
-        userStory4Page.loginDialogButton.click();
-        sleep(5000);
+        doLogin();
 
         // Passo 8 – click linkText=Friends
         userStory4Page.friendsNavLink.click();
@@ -151,23 +169,7 @@ public class UserStory4Test {
      */
     @Test
     public void loginAndLinkIsVisible() throws InterruptedException {
-        sleep(5000);
-
-        // Passo 3 – click login
-        userStory4Page.loginButton.click();
-        sleep(1000);
-
-        // Passo 4 – email
-        userStory4Page.emailInput.sendKeys("goufrappocrugra-7205@y.w80.it");
-        sleep(1000);
-
-        // Passo 6 – password
-        userStory4Page.passwordInput.sendKeys("12345678");
-        sleep(1000);
-
-        // Passo 7 – click Login no diálogo
-        userStory4Page.loginDialogButton.click();
-        sleep(5000);
+        doLogin();
 
         // Passo 8 – click linkText=Friends
         userStory4Page.friendsNavLink.click();
@@ -186,23 +188,7 @@ public class UserStory4Test {
      */
     @Test
     public void loginAndLinkHasCorrectText() throws InterruptedException {
-        sleep(5000);
-
-        // Passo 3 – click login
-        userStory4Page.loginButton.click();
-        sleep(1000);
-
-        // Passo 4 – email
-        userStory4Page.emailInput.sendKeys("goufrappocrugra-7205@y.w80.it");
-        sleep(1000);
-
-        // Passo 6 – password
-        userStory4Page.passwordInput.sendKeys("12345678");
-        sleep(1000);
-
-        // Passo 7 – click Login no diálogo
-        userStory4Page.loginDialogButton.click();
-        sleep(5000);
+        doLogin();
 
         // Passo 8 – click linkText=Friends
         userStory4Page.friendsNavLink.click();

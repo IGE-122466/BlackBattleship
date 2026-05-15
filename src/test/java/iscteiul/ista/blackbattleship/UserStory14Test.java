@@ -115,6 +115,13 @@ public class UserStory14Test {
     public void navigatesToTheRightPage() throws InterruptedException {
         sleep(5000);
 
+        ((JavascriptExecutor) driver).executeScript(
+                "arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});",
+                userStory14Page.privacyLink
+        );
+
+        sleep(2000);
+
         // Passo 4 do Selenium IDE – click linkText=Privacy
         userStory14Page.privacyLink.click();
         sleep(1000);
@@ -133,6 +140,14 @@ public class UserStory14Test {
     @Test
     public void linkIsVisible() throws InterruptedException {
         sleep(5000);
+
+        ((JavascriptExecutor) driver).executeScript(
+                "arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});",
+                userStory14Page.privacyLink
+        );
+
+        sleep(2000);
+
         assertTrue(userStory14Page.privacyLink.isDisplayed(),
                 "A hiperligação 'Privacy' deveria estar visível na página.");
     }
@@ -146,6 +161,14 @@ public class UserStory14Test {
     @Test
     public void linkHasTheCorrectText() throws InterruptedException {
         sleep(5000);
+
+        ((JavascriptExecutor) driver).executeScript(
+                "arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});",
+                userStory14Page.privacyLink
+        );
+
+        sleep(2000);
+
         assertEquals("Privacy", userStory14Page.privacyLink.getText(),
                 "O texto da hiperligação deveria ser 'Privacy'.");
     }

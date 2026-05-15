@@ -103,20 +103,20 @@ public class UserStory9Test {
     }
 
     // -------------------------------------------------------------------------
-    // Métodos de teste
+    // Método auxiliar de login (evita repetição nos três testes)
     // -------------------------------------------------------------------------
 
     /**
-     * Verifica que o processo de login funciona corretamente e que o utilizador
-     * consegue iniciar um jogo contra um robot e abortá-lo com sucesso.
+     * Executa o fluxo de login completo (passos 3 a 7 do Selenium IDE) e
+     * aguarda que a página esteja pronta após a autenticação.
      *
-     * <p>Reproduz os passos 3 a 10 do Selenium IDE.</p>
+     * <p>Este método é partilhado pelos três testes, que são todos
+     * independentes entre si mas requerem login como pré-condição.</p>
      *
-     * <p><strong>Asserção:</strong> após abortar o jogo, o URL deve voltar a
-     * conter {@code /en/battleship}.</p>
+     * @throws InterruptedException se a thread for interrompida durante o
+     *                              {@code sleep}
      */
-    @Test
-    public void loginAndAbortGameVsRobotGoesBackToTheRightPage() throws InterruptedException {
+    private void doLogin() throws InterruptedException {
         sleep(5000);
 
         // Passo 3 – click Login
@@ -134,6 +134,24 @@ public class UserStory9Test {
         // Passo 7 – click Login no diálogo
         userStory9Page.loginDialogButton.click();
         sleep(5000);
+    }
+
+    // -------------------------------------------------------------------------
+    // Métodos de teste
+    // -------------------------------------------------------------------------
+
+    /**
+     * Verifica que o processo de login funciona corretamente e que o utilizador
+     * consegue iniciar um jogo contra um robot e abortá-lo com sucesso.
+     *
+     * <p>Reproduz os passos 3 a 10 do Selenium IDE.</p>
+     *
+     * <p><strong>Asserção:</strong> após abortar o jogo, o URL deve voltar a
+     * conter {@code /en/battleship}.</p>
+     */
+    @Test
+    public void abortGameVsRobotGoesBackToTheRightPage() throws InterruptedException {
+        doLogin();
 
         // Passo 8 – click Play vs robot
         userStory9Page.playVsRobotButton.click();
@@ -159,24 +177,8 @@ public class UserStory9Test {
      * apresentado no ecrã.</p>
      */
     @Test
-    public void loginAndPlayVsRobotIsVisible() throws InterruptedException {
-        sleep(5000);
-
-        // Passo 3 – click Login
-        userStory9Page.loginButton.click();
-        sleep(1000);
-
-        // Passo 4 – email
-        userStory9Page.emailInput.sendKeys("goufrappocrugra-7205@y.w80.it");
-        sleep(1000);
-
-        // Passo 6 – password
-        userStory9Page.passwordInput.sendKeys("12345678");
-        sleep(1000);
-
-        // Passo 7 – click Login no diálogo
-        userStory9Page.loginDialogButton.click();
-        sleep(5000);
+    public void buttonIsVisible() throws InterruptedException {
+        doLogin();
 
         assertTrue(userStory9Page.playVsRobotButton.isDisplayed(),
                 "O botão 'Play vs robot' deveria estar visível na página.");
@@ -190,24 +192,8 @@ public class UserStory9Test {
      * {@code "Play vs robot"}.</p>
      */
     @Test
-    public void loginAndPlayVsRobotHasCorrectText() throws InterruptedException {
-        sleep(5000);
-
-        // Passo 3 – click Login
-        userStory9Page.loginButton.click();
-        sleep(1000);
-
-        // Passo 4 – email
-        userStory9Page.emailInput.sendKeys("goufrappocrugra-7205@y.w80.it");
-        sleep(1000);
-
-        // Passo 6 – password
-        userStory9Page.passwordInput.sendKeys("12345678");
-        sleep(1000);
-
-        // Passo 7 – click Login no diálogo
-        userStory9Page.loginDialogButton.click();
-        sleep(5000);
+    public void buttonHasCorrectText() throws InterruptedException {
+        doLogin();
 
         assertEquals("Play vs robot", userStory9Page.playVsRobotButton.getText(),
                 "O texto da hiperligação deveria ser 'Play vs robot'.");

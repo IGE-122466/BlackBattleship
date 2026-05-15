@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ed1d170-8e2e-4ddf-bca8-202214bf0655" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/UserStory9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory9Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/UserStory6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory6Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/UserStory14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/UserStory14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/UserStory16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/UserStory16.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory14Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory14Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory16Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory16Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory9Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory9Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,13 @@
     "JUnit.UserStory4Test.executor": "Run",
     "JUnit.UserStory4Test.loginAndLinkHasCorrectText.executor": "Run",
     "JUnit.UserStory4Test.loginAndLinkIsVisible.executor": "Run",
+    "JUnit.UserStory6Test.createDoubleEliminationTournamentSucceeds.executor": "Run",
+    "JUnit.UserStory6Test.createLeaderboardTournamentSucceeds.executor": "Run",
+    "JUnit.UserStory6Test.createSingleEliminationTournamentSucceeds.executor": "Run",
+    "JUnit.UserStory6Test.executor": "Run",
+    "JUnit.UserStory9Test.abortGameVsRobotGoesBackToTheRightPage.executor": "Run",
     "JUnit.UserStory9Test.executor": "Run",
+    "JUnit.UserStory9Test.loginAndAbortGameVsRobotGoesBackToTheRightPage.executor": "Run",
     "JUnit.UserStory9Test.loginAndPlayVsRobotHasCorrectText.executor": "Run",
     "JUnit.UserStory9Test.loginAndPlayVsRobotIsVisible.executor": "Run",
     "JUnit.blackbattleship in BlackBattleship.executor": "Run",
@@ -83,8 +87,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.UserStory9Test.loginAndAbortGameVsRobotGoesBackToTheRightPage">
-    <configuration name="UserStory16Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserStory6Test.createDoubleEliminationTournamentSucceeds">
+    <configuration name="UserStory6Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
         <pattern>
@@ -93,13 +97,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.UserStory16Test" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.UserStory6Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserStory6Test.createDoubleEliminationTournamentSucceeds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +112,41 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.UserStory4Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.UserStory6Test" />
+      <option name="METHOD_NAME" value="createDoubleEliminationTournamentSucceeds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserStory6Test.createLeaderboardTournamentSucceeds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlackBattleship" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iscteiul.ista.blackbattleship.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.UserStory6Test" />
+      <option name="METHOD_NAME" value="createLeaderboardTournamentSucceeds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserStory6Test.createSingleEliminationTournamentSucceeds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlackBattleship" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iscteiul.ista.blackbattleship.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.UserStory6Test" />
+      <option name="METHOD_NAME" value="createSingleEliminationTournamentSucceeds" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,45 +166,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory9Test.loginAndAbortGameVsRobotGoesBackToTheRightPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BlackBattleship" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iscteiul.ista.blackbattleship.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.UserStory9Test" />
-      <option name="METHOD_NAME" value="loginAndAbortGameVsRobotGoesBackToTheRightPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserStory9Test.loginAndPlayVsRobotHasCorrectText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BlackBattleship" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iscteiul.ista.blackbattleship.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.UserStory9Test" />
-      <option name="METHOD_NAME" value="loginAndPlayVsRobotHasCorrectText" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserStory9Test.loginAndAbortGameVsRobotGoesBackToTheRightPage" />
+        <item itemvalue="JUnit.UserStory6Test.createDoubleEliminationTournamentSucceeds" />
+        <item itemvalue="JUnit.UserStory6Test" />
+        <item itemvalue="JUnit.UserStory6Test.createSingleEliminationTournamentSucceeds" />
+        <item itemvalue="JUnit.UserStory6Test.createLeaderboardTournamentSucceeds" />
         <item itemvalue="JUnit.UserStory9Test" />
-        <item itemvalue="JUnit.UserStory9Test.loginAndPlayVsRobotHasCorrectText" />
-        <item itemvalue="JUnit.UserStory4Test" />
-        <item itemvalue="JUnit.UserStory16Test" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +192,8 @@
       <workItem from="1778752810976" duration="1973000" />
       <workItem from="1778775438506" duration="221000" />
       <workItem from="1778792160568" duration="12996000" />
-      <workItem from="1778841294036" duration="2598000" />
+      <workItem from="1778841294036" duration="8283000" />
+      <workItem from="1778857295375" duration="4848000" />
     </task>
     <servers />
   </component>
