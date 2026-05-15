@@ -61,11 +61,13 @@ public class UserStory5Test {
         page.acceptConsent();
 
         // Clicar em Play vs bot
+        sleep(2000);
         wait.until(ExpectedConditions.elementToBeClickable(
                 By.cssSelector(".w-100:nth-child(2) > .btn .flex-grow-1")));
         page.clickPlayVsBot();
 
         // Inserir nickname e confirmar
+        sleep(2000);
         wait.until(ExpectedConditions.visibilityOfElementLocated(
                 By.cssSelector("input[placeholder='Nickname']")));
         page.enterNickname("IGE-110323");
@@ -77,14 +79,18 @@ public class UserStory5Test {
 
         // Escrever mensagem e verificar conteúdo
         page.typeMessage("Mensagem teste");
+        sleep(2000);
         assertEquals("Mensagem teste", page.getMessageInputValue(),
                 "O campo devia conter o texto escrito antes do envio");
 
         // Enviar e verificar que o campo ficou vazio
+
         page.clickSend();
+        sleep(2000);
         wait.until(ExpectedConditions.attributeToBe(
                 By.id("mat-input-serverApp0"), "value", ""));
         assertEquals("", page.getMessageInputValue(),
                 "O campo devia estar vazio após enviar a mensagem");
+
     }
 }

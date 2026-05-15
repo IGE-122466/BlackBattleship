@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
+import static java.lang.Thread.sleep;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -50,9 +51,9 @@ public class UserStory19Test {
      * confirmando que a navegação para a página foi bem-sucedida.
      */
     @Test
-    public void testAcederRanka() {
+    public void testAcederRanka() throws InterruptedException {
         page.clickRanka();
-
+        sleep(2000);
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.urlContains("/blog/ranka"));
 

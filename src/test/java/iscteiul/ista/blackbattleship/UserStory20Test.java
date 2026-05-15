@@ -95,9 +95,11 @@ public class UserStory20Test {
 
         // Clicar na aba "Owned" e ativar avatar
         page.clickOwnedTab();
+        sleep(2000);
         wait.until(ExpectedConditions.elementToBeClickable(
                 By.xpath("//button[contains(.,'Use')]")));
         page.clickUseButton();
+        sleep(2000);
 
         assertTrue(true, "O botão 'Use' foi clicado com sucesso");
     }

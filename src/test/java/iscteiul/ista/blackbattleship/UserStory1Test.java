@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
+import static java.lang.Thread.sleep;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -51,7 +52,7 @@ public class UserStory1Test {
      * inserir um nickname e confirmar, o URL muda para a página do jogo.
      */
     @Test
-    public void testIniciarPartidaVsBot() {
+    public void testIniciarPartidaVsBot() throws InterruptedException {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         // Aceitar popup de consentimento de dados
@@ -60,19 +61,23 @@ public class UserStory1Test {
         page.acceptConsent();
 
         // Clicar em Play vs bot
+        sleep(2000);
         wait.until(ExpectedConditions.elementToBeClickable(
                 By.cssSelector(".w-100:nth-child(2) > .btn .flex-grow-1")));
         String urlInicial = page.getCurrentUrl();
         page.clickPlayVsBot();
 
         // Inserir nickname e confirmar
+        sleep(2000);
         wait.until(ExpectedConditions.visibilityOfElementLocated(
                 By.cssSelector("input[placeholder='Nickname']")));
         page.enterNickname("IGE-110323");
+        sleep(2000);
         page.clickContinue();
-
+        sleep(2000);
         // Verificar que o URL mudou (jogo iniciado)
         wait.until(ExpectedConditions.not(ExpectedConditions.urlToBe(urlInicial)));
+        sleep(2000);
         assertNotEquals(urlInicial, page.getCurrentUrl(),
                 "O URL devia mudar após iniciar a partida");
     }

@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
+import static java.lang.Thread.sleep;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -50,9 +51,10 @@ public class UserStory10Test {
      * confirmando que a navegação para a página foi bem-sucedida.
      */
     @Test
-    public void testAcederChangelog() {
-        page.clickChangelog();
+    public void testAcederChangelog() throws InterruptedException {
 
+        page.clickChangelog();
+        sleep(2000);
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.urlContains("/changelog"));
 
