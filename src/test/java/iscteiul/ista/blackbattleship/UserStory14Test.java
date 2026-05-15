@@ -108,29 +108,13 @@ public class UserStory14Test {
      * <p>Reproduz o passo 4 do Selenium IDE:
      * {@code click linkText=Privacy}.</p>
      *
-     * <p>A hiperligação "Privacy" abre numa nova aba ({@code target="_blank"}),
-     * pelo que após o clique é necessário mudar o foco do WebDriver para essa
-     * nova aba antes de verificar o URL.</p>
-     *
      * <p><strong>Asserção:</strong> o URL da nova aba deve conter
      * {@code /en/blog/privacy-policy}.</p>
      */
     @Test
     public void navigatesToTheRightPage() throws InterruptedException {
-        String abaOriginal = driver.getWindowHandle();
-
         // Passo 4 do Selenium IDE – click linkText=Privacy
         userStory14Page.privacyLink.click();
-        sleep(1000);
-
-        // Mudar o foco para a nova aba aberta pelo clique
-        for (String aba : driver.getWindowHandles()) {
-            if (!aba.equals(abaOriginal)) {
-                driver.switchTo().window(aba);
-                break;
-            }
-        }
-
         sleep(1000);
 
         assertTrue(driver.getCurrentUrl().contains("/en/blog/privacy-policy"),
