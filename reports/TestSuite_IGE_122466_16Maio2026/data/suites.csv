@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","722","testarAcessoLojaEmojisEAvatares()","","2026-05-16","passed","2026-05-16","","iscteiul.ista.blackbattleship.selenide.UserStory7SelenideTest","iscteiul.ista.blackbattleship.selenide.UserStory7SelenideTest","testarAcessoLojaEmojisEAvatares"
+"","2448","testarAcessoPaginaDevelopers()","","2026-05-16","passed","2026-05-16","","iscteiul.ista.blackbattleship.selenide.UserStory18SelenideTest","iscteiul.ista.blackbattleship.selenide.UserStory18SelenideTest","testarAcessoPaginaDevelopers"
+"","7992","testarAcessoPaginaChatComoConvidado()","","2026-05-16","passed","2026-05-16","","iscteiul.ista.blackbattleship.selenide.UserStory15SelenideTest","iscteiul.ista.blackbattleship.selenide.UserStory15SelenideTest","testarAcessoPaginaChatComoConvidado"
+"","552","testarGerarLinkParaAmigo()","","2026-05-16","passed","2026-05-16","","iscteiul.ista.blackbattleship.selenide.UserStory2SelenideTest","iscteiul.ista.blackbattleship.selenide.UserStory2SelenideTest","testarGerarLinkParaAmigo"
+"","1113","testarAcessoLojaMoedasVirtuais()","","2026-05-16","passed","2026-05-16","","iscteiul.ista.blackbattleship.selenide.UserStory11SelenideTest","iscteiul.ista.blackbattleship.selenide.UserStory11SelenideTest","testarAcessoLojaMoedasVirtuais"
