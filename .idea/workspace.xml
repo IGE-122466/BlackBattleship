@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ed1d170-8e2e-4ddf-bca8-202214bf0655" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/selenide_122994/UserStory4Selenide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/selenide_122994/UserStory4SelenideTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/selenide_122994/UserStory9Selenide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/selenide_122994/UserStory9SelenideTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/selenide_122994/UserStory4SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/selenide_122994/UserStory4SelenideTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +69,8 @@
     "JUnit.UserStory6Test.createLeaderboardTournamentSucceeds.executor": "Run",
     "JUnit.UserStory6Test.createSingleEliminationTournamentSucceeds.executor": "Run",
     "JUnit.UserStory6Test.executor": "Run",
+    "JUnit.UserStory9SelenideTest.abortGameVsRobotGoesBackToTheRightPage.executor": "Run",
+    "JUnit.UserStory9SelenideTest.executor": "Run",
     "JUnit.UserStory9Test.abortGameVsRobotGoesBackToTheRightPage.executor": "Run",
     "JUnit.UserStory9Test.executor": "Run",
     "JUnit.UserStory9Test.loginAndAbortGameVsRobotGoesBackToTheRightPage.executor": "Run",
@@ -89,7 +91,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.UserStory4SelenideTest.loginAndFriendsLinkHasCorrectText">
+  <component name="RunManager" selected="JUnit.UserStory9SelenideTest">
     <configuration name="UserStory4SelenideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
@@ -137,7 +139,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory4SelenideTest.loginAndNavigatesToFriends" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserStory9SelenideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
         <pattern>
@@ -146,35 +148,35 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship.selenide_122994" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide_122994.UserStory4SelenideTest" />
-      <option name="METHOD_NAME" value="loginAndNavigatesToFriends" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide_122994.UserStory9SelenideTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory9Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserStory9SelenideTest.abortGameVsRobotGoesBackToTheRightPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iscteiul.ista.blackbattleship.*" />
+          <option name="PATTERN" value="iscteiul.ista.blackbattleship.selenide_122994.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.UserStory9Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship.selenide_122994" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide_122994.UserStory9SelenideTest" />
+      <option name="METHOD_NAME" value="abortGameVsRobotGoesBackToTheRightPage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserStory9SelenideTest" />
+        <item itemvalue="JUnit.UserStory9SelenideTest.abortGameVsRobotGoesBackToTheRightPage" />
+        <item itemvalue="JUnit.UserStory4SelenideTest" />
         <item itemvalue="JUnit.UserStory4SelenideTest.loginAndFriendsLinkHasCorrectText" />
         <item itemvalue="JUnit.UserStory4SelenideTest.loginAndFriendsLinkIsVisible" />
-        <item itemvalue="JUnit.UserStory4SelenideTest.loginAndNavigatesToFriends" />
-        <item itemvalue="JUnit.UserStory4SelenideTest" />
-        <item itemvalue="JUnit.UserStory9Test" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +206,8 @@
       <workItem from="1778862722370" duration="87000" />
       <workItem from="1778876482658" duration="1964000" />
       <workItem from="1778879060800" duration="220000" />
-      <workItem from="1778879298395" duration="3372000" />
+      <workItem from="1778879298395" duration="3673000" />
+      <workItem from="1779012850135" duration="1631000" />
     </task>
     <servers />
   </component>
