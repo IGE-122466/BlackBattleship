@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ed1d170-8e2e-4ddf-bca8-202214bf0655" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/selenide_122994/UserStory6Selenide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/selenide_122994/UserStory6SelenideTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,75 +43,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.MainPageTest.executor": "Run",
-    "JUnit.MainPageTest.search.executor": "Run",
-    "JUnit.UserStory14SelenideTest.executor": "Run",
-    "JUnit.UserStory14Test.executor": "Run",
-    "JUnit.UserStory14Test.navigatesToTheRightPage.executor": "Run",
-    "JUnit.UserStory16SelenideTest.clickingGoodiesOpensNewPage.executor": "Run",
-    "JUnit.UserStory16SelenideTest.executor": "Run",
-    "JUnit.UserStory16Test.clickingGoodiesInShopOpensNewPage.executor": "Run",
-    "JUnit.UserStory16Test.executor": "Run",
-    "JUnit.UserStory16Test.testClicarGoodiesNavLinkAbreJanelaMerchandising.executor": "Run",
-    "JUnit.UserStory16Test.testClicarShopNavegaParaPaginaShop.executor": "Run",
-    "JUnit.UserStory18Test.executor": "Run",
-    "JUnit.UserStory2Test.executor": "Run",
-    "JUnit.UserStory4SelenideTest.executor": "Run",
-    "JUnit.UserStory4SelenideTest.loginAndFriendsLinkHasCorrectText.executor": "Run",
-    "JUnit.UserStory4SelenideTest.loginAndFriendsLinkIsVisible.executor": "Run",
-    "JUnit.UserStory4SelenideTest.loginAndNavigatesToFriends.executor": "Run",
-    "JUnit.UserStory4Test.executor": "Run",
-    "JUnit.UserStory4Test.loginAndLinkHasCorrectText.executor": "Run",
-    "JUnit.UserStory4Test.loginAndLinkIsVisible.executor": "Run",
-    "JUnit.UserStory6SelenideTest.createDoubleEliminationTournamentSucceeds.executor": "Run",
-    "JUnit.UserStory6SelenideTest.createLeaderboardTournamentSucceeds.executor": "Run",
-    "JUnit.UserStory6SelenideTest.createSingleEliminationTournamentSucceeds.executor": "Run",
-    "JUnit.UserStory6SelenideTest.executor": "Run",
-    "JUnit.UserStory6Test.createDoubleEliminationTournamentSucceeds.executor": "Run",
-    "JUnit.UserStory6Test.createLeaderboardTournamentSucceeds.executor": "Run",
-    "JUnit.UserStory6Test.createSingleEliminationTournamentSucceeds.executor": "Run",
-    "JUnit.UserStory6Test.executor": "Run",
-    "JUnit.UserStory9SelenideTest.abortGameVsRobotGoesBackToTheRightPage.executor": "Run",
-    "JUnit.UserStory9SelenideTest.executor": "Run",
-    "JUnit.UserStory9Test.abortGameVsRobotGoesBackToTheRightPage.executor": "Run",
-    "JUnit.UserStory9Test.executor": "Run",
-    "JUnit.UserStory9Test.loginAndAbortGameVsRobotGoesBackToTheRightPage.executor": "Run",
-    "JUnit.UserStory9Test.loginAndPlayVsRobotHasCorrectText.executor": "Run",
-    "JUnit.UserStory9Test.loginAndPlayVsRobotIsVisible.executor": "Run",
-    "JUnit.blackbattleship in BlackBattleship.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "TestSuite__122994",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.MainPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageTest.search.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory14SelenideTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory14Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory14Test.navigatesToTheRightPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory16SelenideTest.clickingGoodiesOpensNewPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory16SelenideTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory16Test.clickingGoodiesInShopOpensNewPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory16Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory16Test.testClicarGoodiesNavLinkAbreJanelaMerchandising.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory16Test.testClicarShopNavegaParaPaginaShop.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory18Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory2Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory4SelenideTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory4SelenideTest.loginAndFriendsLinkHasCorrectText.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory4SelenideTest.loginAndFriendsLinkIsVisible.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory4SelenideTest.loginAndNavigatesToFriends.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory4Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory4Test.loginAndLinkHasCorrectText.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory4Test.loginAndLinkIsVisible.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory6SelenideTest.createDoubleEliminationTournamentSucceeds.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory6SelenideTest.createLeaderboardTournamentSucceeds.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory6SelenideTest.createSingleEliminationTournamentSucceeds.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory6SelenideTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory6Test.createDoubleEliminationTournamentSucceeds.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory6Test.createLeaderboardTournamentSucceeds.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory6Test.createSingleEliminationTournamentSucceeds.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory6Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory9SelenideTest.abortGameVsRobotGoesBackToTheRightPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory9SelenideTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory9Test.abortGameVsRobotGoesBackToTheRightPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory9Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory9Test.loginAndAbortGameVsRobotGoesBackToTheRightPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory9Test.loginAndPlayVsRobotHasCorrectText.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStory9Test.loginAndPlayVsRobotIsVisible.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.blackbattleship in BlackBattleship.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.selenide_122994 in BlackBattleship.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;TestSuite__122994&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;io.qameta.allure.idea.settings.AppSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.UserStory6SelenideTest">
-    <configuration name="UserStory16SelenideTest.clickingGoodiesOpensNewPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BlackBattleship" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iscteiul.ista.blackbattleship.selenide_122994.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship.selenide_122994" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide_122994.UserStory16SelenideTest" />
-      <option name="METHOD_NAME" value="clickingGoodiesOpensNewPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="JUnit.selenide_122994 in BlackBattleship">
     <configuration name="UserStory6SelenideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
@@ -177,13 +163,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="selenide_122994 in BlackBattleship" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlackBattleship" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/selenide_122994" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.selenide_122994 in BlackBattleship" />
         <item itemvalue="JUnit.UserStory6SelenideTest" />
         <item itemvalue="JUnit.UserStory6SelenideTest.createLeaderboardTournamentSucceeds" />
         <item itemvalue="JUnit.UserStory6SelenideTest.createDoubleEliminationTournamentSucceeds" />
         <item itemvalue="JUnit.UserStory6SelenideTest.createSingleEliminationTournamentSucceeds" />
-        <item itemvalue="JUnit.UserStory16SelenideTest.clickingGoodiesOpensNewPage" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +208,11 @@
       <workItem from="1778876482658" duration="1964000" />
       <workItem from="1778879060800" duration="220000" />
       <workItem from="1778879298395" duration="3673000" />
-      <workItem from="1779012850135" duration="5045000" />
+      <workItem from="1779012850135" duration="5599000" />
+      <workItem from="1779055172694" duration="1913000" />
+      <workItem from="1779057122107" duration="337000" />
+      <workItem from="1779057483809" duration="517000" />
+      <workItem from="1779058022479" duration="101000" />
     </task>
     <servers />
   </component>
@@ -231,5 +229,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
