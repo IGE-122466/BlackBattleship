@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ed1d170-8e2e-4ddf-bca8-202214bf0655" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/selenide_122994/UserStory16Selenide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/selenide_122994/UserStory16SelenideTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/selenide_122994/UserStory6Selenide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/selenide_122994/UserStory6SelenideTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +52,7 @@
     "JUnit.UserStory14SelenideTest.executor": "Run",
     "JUnit.UserStory14Test.executor": "Run",
     "JUnit.UserStory14Test.navigatesToTheRightPage.executor": "Run",
+    "JUnit.UserStory16SelenideTest.clickingGoodiesOpensNewPage.executor": "Run",
     "JUnit.UserStory16SelenideTest.executor": "Run",
     "JUnit.UserStory16Test.clickingGoodiesInShopOpensNewPage.executor": "Run",
     "JUnit.UserStory16Test.executor": "Run",
@@ -66,6 +67,10 @@
     "JUnit.UserStory4Test.executor": "Run",
     "JUnit.UserStory4Test.loginAndLinkHasCorrectText.executor": "Run",
     "JUnit.UserStory4Test.loginAndLinkIsVisible.executor": "Run",
+    "JUnit.UserStory6SelenideTest.createDoubleEliminationTournamentSucceeds.executor": "Run",
+    "JUnit.UserStory6SelenideTest.createLeaderboardTournamentSucceeds.executor": "Run",
+    "JUnit.UserStory6SelenideTest.createSingleEliminationTournamentSucceeds.executor": "Run",
+    "JUnit.UserStory6SelenideTest.executor": "Run",
     "JUnit.UserStory6Test.createDoubleEliminationTournamentSucceeds.executor": "Run",
     "JUnit.UserStory6Test.createLeaderboardTournamentSucceeds.executor": "Run",
     "JUnit.UserStory6Test.createSingleEliminationTournamentSucceeds.executor": "Run",
@@ -92,23 +97,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.UserStory16SelenideTest">
-    <configuration name="UserStory14SelenideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BlackBattleship" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iscteiul.ista.blackbattleship.selenide_122994.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship.selenide_122994" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide_122994.UserStory14SelenideTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserStory16SelenideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserStory6SelenideTest">
+    <configuration name="UserStory16SelenideTest.clickingGoodiesOpensNewPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
         <pattern>
@@ -118,12 +108,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship.selenide_122994" />
       <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide_122994.UserStory16SelenideTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="clickingGoodiesOpensNewPage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory4SelenideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserStory6SelenideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
         <pattern>
@@ -132,13 +123,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship.selenide_122994" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide_122994.UserStory4SelenideTest" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide_122994.UserStory6SelenideTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory9SelenideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserStory6SelenideTest.createDoubleEliminationTournamentSucceeds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
         <pattern>
@@ -147,13 +138,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship.selenide_122994" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide_122994.UserStory9SelenideTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide_122994.UserStory6SelenideTest" />
+      <option name="METHOD_NAME" value="createDoubleEliminationTournamentSucceeds" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory9SelenideTest.abortGameVsRobotGoesBackToTheRightPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserStory6SelenideTest.createLeaderboardTournamentSucceeds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
         <pattern>
@@ -162,8 +154,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship.selenide_122994" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide_122994.UserStory9SelenideTest" />
-      <option name="METHOD_NAME" value="abortGameVsRobotGoesBackToTheRightPage" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide_122994.UserStory6SelenideTest" />
+      <option name="METHOD_NAME" value="createLeaderboardTournamentSucceeds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserStory6SelenideTest.createSingleEliminationTournamentSucceeds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlackBattleship" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iscteiul.ista.blackbattleship.selenide_122994.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship.selenide_122994" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide_122994.UserStory6SelenideTest" />
+      <option name="METHOD_NAME" value="createSingleEliminationTournamentSucceeds" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserStory16SelenideTest" />
-        <item itemvalue="JUnit.UserStory14SelenideTest" />
-        <item itemvalue="JUnit.UserStory9SelenideTest" />
-        <item itemvalue="JUnit.UserStory9SelenideTest.abortGameVsRobotGoesBackToTheRightPage" />
-        <item itemvalue="JUnit.UserStory4SelenideTest" />
+        <item itemvalue="JUnit.UserStory6SelenideTest" />
+        <item itemvalue="JUnit.UserStory6SelenideTest.createLeaderboardTournamentSucceeds" />
+        <item itemvalue="JUnit.UserStory6SelenideTest.createDoubleEliminationTournamentSucceeds" />
+        <item itemvalue="JUnit.UserStory6SelenideTest.createSingleEliminationTournamentSucceeds" />
+        <item itemvalue="JUnit.UserStory16SelenideTest.clickingGoodiesOpensNewPage" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +214,7 @@
       <workItem from="1778876482658" duration="1964000" />
       <workItem from="1778879060800" duration="220000" />
       <workItem from="1778879298395" duration="3673000" />
-      <workItem from="1779012850135" duration="3068000" />
+      <workItem from="1779012850135" duration="5045000" />
     </task>
     <servers />
   </component>
