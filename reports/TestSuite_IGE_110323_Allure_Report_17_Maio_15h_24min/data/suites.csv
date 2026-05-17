@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","18024","testEnviarMensagemChat()","","2026-05-17","passed","2026-05-17","","iscteiul.ista.blackbattleship.selenide.UserStory5SelenideTest","iscteiul.ista.blackbattleship.selenide.UserStory5SelenideTest","testEnviarMensagemChat"
+"","33249","testAlterarAvatar()","","2026-05-17","passed","2026-05-17","","iscteiul.ista.blackbattleship.selenide.UserStory20SelenideTest","iscteiul.ista.blackbattleship.selenide.UserStory20SelenideTest","testAlterarAvatar"
+"","4088","testAcederRanka()","","2026-05-17","passed","2026-05-17","","iscteiul.ista.blackbattleship.selenide.UserStory19SelenideTest","iscteiul.ista.blackbattleship.selenide.UserStory19SelenideTest","testAcederRanka"
+"","14722","testIniciarPartidaVsBot()","","2026-05-17","passed","2026-05-17","","iscteiul.ista.blackbattleship.selenide.UserStory1SelenideTest","iscteiul.ista.blackbattleship.selenide.UserStory1SelenideTest","testIniciarPartidaVsBot"
+"","5899","testAcederChangelog()","","2026-05-17","passed","2026-05-17","","iscteiul.ista.blackbattleship.selenide.UserStory10SelenideTest","iscteiul.ista.blackbattleship.selenide.UserStory10SelenideTest","testAcederChangelog"
