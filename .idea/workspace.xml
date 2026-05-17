@@ -5,17 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ed1d170-8e2e-4ddf-bca8-202214bf0655" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/UserStory6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory6Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/selenide/UserStory10Selenide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/selenide/UserStory19Selenide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/selenide/UserStory1Selenide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/selenide/UserStory20Selenide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iscteiul/ista/blackbattleship/selenide/UserStory5Selenide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/selenide/UserStory10SelenideTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/selenide/UserStory19SelenideTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/selenide/UserStory1SelenideTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/selenide/UserStory20SelenideTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/selenide/UserStory5SelenideTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory14Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory14Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory4Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory9Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/blackbattleship/UserStory9Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="151" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,9 +34,26 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "IGE-110323"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IGE-122466/BlackBattleship.git&quot;,
+    &quot;accountId&quot;: &quot;f2fedcb7-147a-4114-980c-67c97f991f80&quot;
+  }
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -38,6 +64,10 @@
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5,
@@ -52,6 +82,8 @@
   "keyToString": {
     "JUnit.MainPageTest.executor": "Run",
     "JUnit.MainPageTest.search.executor": "Run",
+    "JUnit.UserStory10SelenideTest.executor": "Run",
+    "JUnit.UserStory10SelenideTest.testAcederChangelog.executor": "Run",
     "JUnit.UserStory14Test.executor": "Run",
     "JUnit.UserStory14Test.navigatesToTheRightPage.executor": "Run",
     "JUnit.UserStory16Test.clickingGoodiesInShopOpensNewPage.executor": "Run",
@@ -59,10 +91,14 @@
     "JUnit.UserStory16Test.testClicarGoodiesNavLinkAbreJanelaMerchandising.executor": "Run",
     "JUnit.UserStory16Test.testClicarShopNavegaParaPaginaShop.executor": "Run",
     "JUnit.UserStory18Test.executor": "Run",
+    "JUnit.UserStory19SelenideTest.testAcederRanka.executor": "Run",
+    "JUnit.UserStory1SelenideTest.testIniciarPartidaVsBot.executor": "Run",
+    "JUnit.UserStory20SelenideTest.testAlterarAvatar.executor": "Run",
     "JUnit.UserStory2Test.executor": "Run",
     "JUnit.UserStory4Test.executor": "Run",
     "JUnit.UserStory4Test.loginAndLinkHasCorrectText.executor": "Run",
     "JUnit.UserStory4Test.loginAndLinkIsVisible.executor": "Run",
+    "JUnit.UserStory5SelenideTest.testEnviarMensagemChat.executor": "Run",
     "JUnit.UserStory6Test.createDoubleEliminationTournamentSucceeds.executor": "Run",
     "JUnit.UserStory6Test.createLeaderboardTournamentSucceeds.executor": "Run",
     "JUnit.UserStory6Test.createSingleEliminationTournamentSucceeds.executor": "Run",
@@ -74,107 +110,131 @@
     "JUnit.UserStory9Test.loginAndPlayVsRobotIsVisible.executor": "Run",
     "JUnit.blackbattleship in BlackBattleship.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "IGE-122994",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "Parte2-110323",
     "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/fmeir/IdeaProjects/BlackBattleship/src/main/java/iscteiul/ista/blackbattleship/selenide",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "io.qameta.allure.idea.settings.AppSettingsConfigurable",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.UserStory6Test.createDoubleEliminationTournamentSucceeds">
-    <configuration name="UserStory6Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fmeir\IdeaProjects\BlackBattleship\src\main\java\iscteiul\ista\blackbattleship\selenide" />
+      <recent name="C:\Users\fmeir\IdeaProjects\BlackBattleship\src\test\java\iscteiul\ista\blackbattleship\selenide" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fmeir\IdeaProjects\BlackBattleship\src\test\java\iscteiul\ista\blackbattleship\selenide" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserStory20SelenideTest.testAlterarAvatar">
+    <configuration name="UserStory10SelenideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iscteiul.ista.blackbattleship.*" />
+          <option name="PATTERN" value="iscteiul.ista.blackbattleship.selenide.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.UserStory6Test" />
+      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship.selenide" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide.UserStory10SelenideTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory6Test.createDoubleEliminationTournamentSucceeds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserStory10SelenideTest.testAcederChangelog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iscteiul.ista.blackbattleship.*" />
+          <option name="PATTERN" value="iscteiul.ista.blackbattleship.selenide.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.UserStory6Test" />
-      <option name="METHOD_NAME" value="createDoubleEliminationTournamentSucceeds" />
+      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship.selenide" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide.UserStory10SelenideTest" />
+      <option name="METHOD_NAME" value="testAcederChangelog" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory6Test.createLeaderboardTournamentSucceeds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserStory19SelenideTest.testAcederRanka" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iscteiul.ista.blackbattleship.*" />
+          <option name="PATTERN" value="iscteiul.ista.blackbattleship.selenide.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.UserStory6Test" />
-      <option name="METHOD_NAME" value="createLeaderboardTournamentSucceeds" />
+      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship.selenide" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide.UserStory19SelenideTest" />
+      <option name="METHOD_NAME" value="testAcederRanka" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory6Test.createSingleEliminationTournamentSucceeds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserStory20SelenideTest.testAlterarAvatar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iscteiul.ista.blackbattleship.*" />
+          <option name="PATTERN" value="iscteiul.ista.blackbattleship.selenide.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.UserStory6Test" />
-      <option name="METHOD_NAME" value="createSingleEliminationTournamentSucceeds" />
+      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship.selenide" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide.UserStory20SelenideTest" />
+      <option name="METHOD_NAME" value="testAlterarAvatar" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory9Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserStory5SelenideTest.testEnviarMensagemChat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackBattleship" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iscteiul.ista.blackbattleship.*" />
+          <option name="PATTERN" value="iscteiul.ista.blackbattleship.selenide.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.UserStory9Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="iscteiul.ista.blackbattleship.selenide" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.blackbattleship.selenide.UserStory5SelenideTest" />
+      <option name="METHOD_NAME" value="testEnviarMensagemChat" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserStory6Test.createDoubleEliminationTournamentSucceeds" />
-        <item itemvalue="JUnit.UserStory6Test" />
-        <item itemvalue="JUnit.UserStory6Test.createSingleEliminationTournamentSucceeds" />
-        <item itemvalue="JUnit.UserStory6Test.createLeaderboardTournamentSucceeds" />
-        <item itemvalue="JUnit.UserStory9Test" />
+        <item itemvalue="JUnit.UserStory20SelenideTest.testAlterarAvatar" />
+        <item itemvalue="JUnit.UserStory19SelenideTest.testAcederRanka" />
+        <item itemvalue="JUnit.UserStory10SelenideTest.testAcederChangelog" />
+        <item itemvalue="JUnit.UserStory10SelenideTest" />
+        <item itemvalue="JUnit.UserStory5SelenideTest.testEnviarMensagemChat" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -194,6 +254,7 @@
       <workItem from="1778792160568" duration="12996000" />
       <workItem from="1778841294036" duration="8283000" />
       <workItem from="1778857295375" duration="4848000" />
+      <workItem from="1779027522004" duration="108000" />
     </task>
     <servers />
   </component>
@@ -210,5 +271,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
