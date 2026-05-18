@@ -2,6 +2,12 @@
 
 Projeto laboratorial de Engenharia de Software - Testes de caixa-preta/aceitação.
 
+## Video de demonstração
+
+https://youtu.be/uQJdr6p2Amc
+
+Os testes presentens em _selenide_122994_ requerem que seja dado consentimento às cookies de forma manual.
+
 ## Elementos do Grupo
 * IGE-122994 Diogo Almeida
 * IGE-110323 Francisco Silva
